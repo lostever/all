@@ -15,333 +15,403 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: V001-US-付费推荐:dlj.tf/ssrsub, server: russia.com, port: 8080, client-fingerprint: chrome, type: vmess, uuid: bd8c41a8-7598-4c28-9965-522545e14892, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v03.ssrsub.com}}, udp: true}
-  - {name: V002-US-付费推荐:dlj.tf/ssrsub, server: www.who.int, port: 8080, client-fingerprint: chrome, type: vmess, uuid: bd8c41a8-7598-4c28-9965-522545e14892, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v03.ssrsub.com}}, udp: true}
-  - {name: V003-US-付费推荐:dlj.tf/ssrsub, server: russia.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: bd8c41a8-7598-4c28-9965-522545e14892, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v03.ssrsub.com}}, udp: true}
-  - {name: V004-US-付费推荐:dlj.tf/ssrsub, server: www.who.int, port: 80, client-fingerprint: chrome, type: vmess, uuid: bd8c41a8-7598-4c28-9965-522545e14892, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v03.ssrsub.com}}, udp: true}
-  - {name: V01-付费推荐:dlj.tf/ssrsub, server: 104.252.160.24, port: 11065, client-fingerprint: chrome, type: vmess, uuid: d15ad646-2871-40f2-92e4-4afb530ac6b8, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: V02-付费推荐:dlj.tf/ssrsub, server: a.qypsnewservice.buzz, port: 443, client-fingerprint: chrome, type: vmess, uuid: b26b0913-7519-4aaf-947f-cc4439291fc2, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /abc, headers: {Host: a.qypsnewservice.buzz}}, udp: true}
-  - {name: V03-付费推荐:dlj.tf/ssrsub, server: 165.227.138.218, port: 8585, client-fingerprint: chrome, type: vmess, uuid: afedd970-62a2-46f5-88c4-e1f5305d3758, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: V04-付费推荐:dlj.tf/ssrsub, server: data-us-v1.shwjfkw.cn, port: 20401, client-fingerprint: chrome, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /debian, headers: {Host: data-us-v1.shwjfkw.cn}}, udp: true}
-  - {name: V05-付费推荐:dlj.tf/ssrsub, server: 108.181.200.220, port: 50613, client-fingerprint: chrome, type: vmess, uuid: 09e81eaa-d298-432c-e7b6-17add32d14fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: V06-付费推荐:dlj.tf/ssrsub, server: 205.234.201.97, port: 10087, client-fingerprint: chrome, type: vmess, uuid: 1cce2a35-0fad-46a1-bc80-1d8985bfbfc5, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /gost}, udp: true}
-  - {name: V07-付费推荐:dlj.tf/ssrsub, server: 205.234.231.135, port: 13743, client-fingerprint: chrome, type: vmess, uuid: 31f4136f-9203-4b53-a759-a7aedd57caa8, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dasdfer}, udp: true}
-  - {name: V08-付费推荐:dlj.tf/ssrsub, server: 205.234.231.135, port: 58723, client-fingerprint: chrome, type: vmess, uuid: e54f4902-bd57-4241-eb07-4fa014bec04d, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dasdfer}, udp: true}
-  - {name: V09-付费推荐:dlj.tf/ssrsub, server: 104.21.224.201, port: 80, client-fingerprint: chrome, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: V10-付费推荐:dlj.tf/ssrsub, server: 104.21.227.37, port: 80, client-fingerprint: chrome, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: V11-付费推荐:dlj.tf/ssrsub, server: 104.21.229.49, port: 80, client-fingerprint: chrome, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳@WangCai08", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: V12-付费推荐:dlj.tf/ssrsub, server: 104.21.69.44, port: 80, client-fingerprint: chrome, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: V13-付费推荐:dlj.tf/ssrsub, server: 104.21.82.39, port: 2052, client-fingerprint: chrome, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mahilu.site}}, udp: true}
-  - {name: V14-付费推荐:dlj.tf/ssrsub, server: 172.67.152.170, port: 2052, client-fingerprint: chrome, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mahilu.site}}, udp: true}
-  - {name: V15-付费推荐:dlj.tf/ssrsub, server: cfcdn1.sanfencdn9.com, port: 2052, client-fingerprint: chrome, type: vmess, uuid: a564b1ec-2d51-418a-ba01-e9ab22736afc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/GQ2qE5Us9g, headers: {Host: tw1bQiWSE4x.fzbqfrse.xyz}}, udp: true}
-  - {name: V16-付费推荐:dlj.tf/ssrsub, server: m07.tk4433.com, port: 2053, client-fingerprint: chrome, type: vmess, uuid: 5e2b3a4d-bd24-4a58-f55d-ed7bdcd421d3, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /m07.tk4433.com, headers: {Host: m07.tk4433.com}}, udp: true}
-  - {name: V17-付费推荐:dlj.tf/ssrsub, server: mahilu.site, port: 2052, client-fingerprint: chrome, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mahilu.site}}, udp: true}
-  - {name: V18-付费推荐:dlj.tf/ssrsub, server: mizban.arzonhost.ir, port: 2086, client-fingerprint: chrome, type: vmess, uuid: e690ff9e-1676-4be3-d136-dcae586cb1e7, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mizban.arzonhost.ir}}, udp: true}
-  - {name: V19-付费推荐:dlj.tf/ssrsub, server: 142.111.135.121, port: 45568, client-fingerprint: chrome, type: vmess, uuid: 79125050-8415-421e-909e-4a87c6da3ead, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: V20-付费推荐:dlj.tf/ssrsub, server: 172.252.136.209, port: 17758, client-fingerprint: chrome, type: vmess, uuid: bad75668-9701-494b-cf16-ba2fc23e7722, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: V21-付费推荐:dlj.tf/ssrsub, server: 209.222.10.113, port: 59404, client-fingerprint: chrome, type: vmess, uuid: 8b5456d2-d0ea-4b94-fe7d-42aa11b84a43, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: V22-付费推荐:dlj.tf/ssrsub, server: 209.73.143.94, port: 37442, client-fingerprint: chrome, type: vmess, uuid: e84e5df6-cc1b-4ac2-df27-91a7057cf202, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: V23-付费推荐:dlj.tf/ssrsub, server: 108.61.218.225, port: 55491, client-fingerprint: chrome, type: vmess, uuid: bb98b924-29b0-4f46-8417-5e1262fb6f61, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: V24-付费推荐:dlj.tf/ssrsub, server: 149.28.65.114, port: 27054, client-fingerprint: chrome, type: vmess, uuid: c30d1b67-af0d-4eb8-cf98-106b22c176eb, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: V25-付费推荐:dlj.tf/ssrsub, server: 149.28.76.66, port: 22957, client-fingerprint: chrome, type: vmess, uuid: 1c2ae221-53fb-4d56-d832-751da2287008, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: V26-付费推荐:dlj.tf/ssrsub, server: 149.28.80.197, port: 31338, client-fingerprint: chrome, type: vmess, uuid: 1e09b605-e588-4cd4-e39a-8fae4ea13431, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: V27-付费推荐:dlj.tf/ssrsub, server: 149.28.89.226, port: 18519, client-fingerprint: chrome, type: vmess, uuid: 59494231-e96b-423a-c3d5-1ab28ff0e13d, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: V28-付费推荐:dlj.tf/ssrsub, server: 173.199.114.215, port: 51671, client-fingerprint: chrome, type: vmess, uuid: 338ae84a-77d3-4438-bbdd-1444105dad20, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: V29-付费推荐:dlj.tf/ssrsub, server: 149.28.233.73, port: 25487, client-fingerprint: chrome, type: vmess, uuid: 352970a3-41c2-4d57-925f-452d76ba6d23, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: V30-付费推荐:dlj.tf/ssrsub, server: 149.28.35.248, port: 49726, client-fingerprint: chrome, type: vmess, uuid: 2f4a30ab-803a-40b0-d5ae-c691c3bdf138, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: V31-付费推荐:dlj.tf/ssrsub, server: 149.28.44.151, port: 37403, client-fingerprint: chrome, type: vmess, uuid: c5b3caa5-2a98-45a8-9867-20b7c872221b, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: V32-付费推荐:dlj.tf/ssrsub, server: 149.28.46.252, port: 18118, client-fingerprint: chrome, type: vmess, uuid: e223876d-ae70-4889-f6cf-15097a008888, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: V33-付费推荐:dlj.tf/ssrsub, server: 207.246.81.104, port: 44270, client-fingerprint: chrome, type: vmess, uuid: 4e6f5546-bc2f-450d-d669-f5ac822e6fde, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: V34-付费推荐:dlj.tf/ssrsub, server: 144.202.59.26, port: 57061, client-fingerprint: chrome, type: vmess, uuid: e90a1709-fd94-44d3-f809-8849837cc2d3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: V35-付费推荐:dlj.tf/ssrsub, server: 149.28.124.239, port: 34112, client-fingerprint: chrome, type: vmess, uuid: 83486d3b-2a38-480e-dc0f-fd2db85df3b3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: V36-付费推荐:dlj.tf/ssrsub, server: 156.235.89.251, port: 16100, client-fingerprint: chrome, type: vmess, uuid: 255b2ba7-3848-4f54-c0b5-68ea3f1a314c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: V37-付费推荐:dlj.tf/ssrsub, server: 156.236.76.198, port: 31579, client-fingerprint: chrome, type: vmess, uuid: fa02a429-c6b4-4951-dd38-512bb077182d, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: V38-付费推荐:dlj.tf/ssrsub, server: 156.225.64.76, port: 16921, client-fingerprint: chrome, type: vmess, uuid: 515866e4-baf9-4646-8bc1-c950e811ad7e, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: V39-付费推荐:dlj.tf/ssrsub, server: 2.58.87.221, port: 46628, client-fingerprint: chrome, type: vmess, uuid: f6ba9e5a-711c-496f-be60-ac5464dec2b8, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: V40-付费推荐:dlj.tf/ssrsub, server: 103.179.142.44, port: 20000, client-fingerprint: chrome, type: vmess, uuid: 1007421d-47a9-4ccf-c30a-2fc815c98dca, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fat}, udp: true}
-  - {name: V41-付费推荐:dlj.tf/ssrsub, server: 8.222.174.108, port: 2082, client-fingerprint: chrome, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s1c.v2.v001sss.xyz}}, udp: true}
-  - {name: V001-US-付费推荐:dlj.tf/ssrsub 2, server: russia.com, port: 8080, client-fingerprint: chrome, type: vmess, uuid: bd8c41a8-7598-4c28-9965-522545e14892, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v03.ssrsub.com}}, udp: true}
-  - {name: V002-US-付费推荐:dlj.tf/ssrsub 2, server: www.who.int, port: 8080, client-fingerprint: chrome, type: vmess, uuid: bd8c41a8-7598-4c28-9965-522545e14892, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v03.ssrsub.com}}, udp: true}
-  - {name: V003-US-付费推荐:dlj.tf/ssrsub 2, server: russia.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: bd8c41a8-7598-4c28-9965-522545e14892, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v03.ssrsub.com}}, udp: true}
-  - {name: V004-US-付费推荐:dlj.tf/ssrsub 2, server: www.who.int, port: 80, client-fingerprint: chrome, type: vmess, uuid: bd8c41a8-7598-4c28-9965-522545e14892, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: ssrsub.v03.ssrsub.com}}, udp: true}
-  - {name: V01-付费推荐:dlj.tf/ssrsub 2, server: 104.252.160.24, port: 11065, client-fingerprint: chrome, type: vmess, uuid: d15ad646-2871-40f2-92e4-4afb530ac6b8, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: V02-付费推荐:dlj.tf/ssrsub 2, server: a.qypsnewservice.buzz, port: 443, client-fingerprint: chrome, type: vmess, uuid: b26b0913-7519-4aaf-947f-cc4439291fc2, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /abc, headers: {Host: a.qypsnewservice.buzz}}, udp: true}
-  - {name: V03-付费推荐:dlj.tf/ssrsub 2, server: 165.227.138.218, port: 8585, client-fingerprint: chrome, type: vmess, uuid: afedd970-62a2-46f5-88c4-e1f5305d3758, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: V04-付费推荐:dlj.tf/ssrsub 2, server: data-us-v1.shwjfkw.cn, port: 20401, client-fingerprint: chrome, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /debian, headers: {Host: data-us-v1.shwjfkw.cn}}, udp: true}
-  - {name: V05-付费推荐:dlj.tf/ssrsub 2, server: 108.181.200.220, port: 50613, client-fingerprint: chrome, type: vmess, uuid: 09e81eaa-d298-432c-e7b6-17add32d14fc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: V06-付费推荐:dlj.tf/ssrsub 2, server: 205.234.201.97, port: 10087, client-fingerprint: chrome, type: vmess, uuid: 1cce2a35-0fad-46a1-bc80-1d8985bfbfc5, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /gost}, udp: true}
-  - {name: V07-付费推荐:dlj.tf/ssrsub 2, server: 205.234.231.135, port: 13743, client-fingerprint: chrome, type: vmess, uuid: 31f4136f-9203-4b53-a759-a7aedd57caa8, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dasdfer}, udp: true}
-  - {name: V08-付费推荐:dlj.tf/ssrsub 2, server: 205.234.231.135, port: 58723, client-fingerprint: chrome, type: vmess, uuid: e54f4902-bd57-4241-eb07-4fa014bec04d, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /dasdfer}, udp: true}
-  - {name: V09-付费推荐:dlj.tf/ssrsub 2, server: 104.21.224.201, port: 80, client-fingerprint: chrome, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: V10-付费推荐:dlj.tf/ssrsub 2, server: 104.21.227.37, port: 80, client-fingerprint: chrome, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt1.ir}}, udp: true}
-  - {name: V11-付费推荐:dlj.tf/ssrsub 2, server: 104.21.229.49, port: 80, client-fingerprint: chrome, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳@WangCai08", headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: V12-付费推荐:dlj.tf/ssrsub 2, server: 104.21.69.44, port: 80, client-fingerprint: chrome, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt4.ir}}, udp: true}
-  - {name: V13-付费推荐:dlj.tf/ssrsub 2, server: 104.21.82.39, port: 2052, client-fingerprint: chrome, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mahilu.site}}, udp: true}
-  - {name: V14-付费推荐:dlj.tf/ssrsub 2, server: 172.67.152.170, port: 2052, client-fingerprint: chrome, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mahilu.site}}, udp: true}
-  - {name: V15-付费推荐:dlj.tf/ssrsub 2, server: cfcdn1.sanfencdn9.com, port: 2052, client-fingerprint: chrome, type: vmess, uuid: a564b1ec-2d51-418a-ba01-e9ab22736afc, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/GQ2qE5Us9g, headers: {Host: tw1bQiWSE4x.fzbqfrse.xyz}}, udp: true}
-  - {name: V16-付费推荐:dlj.tf/ssrsub 2, server: m07.tk4433.com, port: 2053, client-fingerprint: chrome, type: vmess, uuid: 5e2b3a4d-bd24-4a58-f55d-ed7bdcd421d3, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /m07.tk4433.com, headers: {Host: m07.tk4433.com}}, udp: true}
-  - {name: V17-付费推荐:dlj.tf/ssrsub 2, server: mahilu.site, port: 2052, client-fingerprint: chrome, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mahilu.site}}, udp: true}
-  - {name: V18-付费推荐:dlj.tf/ssrsub 2, server: mizban.arzonhost.ir, port: 2086, client-fingerprint: chrome, type: vmess, uuid: e690ff9e-1676-4be3-d136-dcae586cb1e7, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mizban.arzonhost.ir}}, udp: true}
-  - {name: V19-付费推荐:dlj.tf/ssrsub 2, server: 142.111.135.121, port: 45568, client-fingerprint: chrome, type: vmess, uuid: 79125050-8415-421e-909e-4a87c6da3ead, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: V20-付费推荐:dlj.tf/ssrsub 2, server: 172.252.136.209, port: 17758, client-fingerprint: chrome, type: vmess, uuid: bad75668-9701-494b-cf16-ba2fc23e7722, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: V21-付费推荐:dlj.tf/ssrsub 2, server: 209.222.10.113, port: 59404, client-fingerprint: chrome, type: vmess, uuid: 8b5456d2-d0ea-4b94-fe7d-42aa11b84a43, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: V22-付费推荐:dlj.tf/ssrsub 2, server: 209.73.143.94, port: 37442, client-fingerprint: chrome, type: vmess, uuid: e84e5df6-cc1b-4ac2-df27-91a7057cf202, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: V23-付费推荐:dlj.tf/ssrsub 2, server: 108.61.218.225, port: 55491, client-fingerprint: chrome, type: vmess, uuid: bb98b924-29b0-4f46-8417-5e1262fb6f61, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: V24-付费推荐:dlj.tf/ssrsub 2, server: 149.28.65.114, port: 27054, client-fingerprint: chrome, type: vmess, uuid: c30d1b67-af0d-4eb8-cf98-106b22c176eb, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: V25-付费推荐:dlj.tf/ssrsub 2, server: 149.28.76.66, port: 22957, client-fingerprint: chrome, type: vmess, uuid: 1c2ae221-53fb-4d56-d832-751da2287008, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: V26-付费推荐:dlj.tf/ssrsub 2, server: 149.28.80.197, port: 31338, client-fingerprint: chrome, type: vmess, uuid: 1e09b605-e588-4cd4-e39a-8fae4ea13431, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: V27-付费推荐:dlj.tf/ssrsub 2, server: 149.28.89.226, port: 18519, client-fingerprint: chrome, type: vmess, uuid: 59494231-e96b-423a-c3d5-1ab28ff0e13d, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: V28-付费推荐:dlj.tf/ssrsub 2, server: 173.199.114.215, port: 51671, client-fingerprint: chrome, type: vmess, uuid: 338ae84a-77d3-4438-bbdd-1444105dad20, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: V29-付费推荐:dlj.tf/ssrsub 2, server: 149.28.233.73, port: 25487, client-fingerprint: chrome, type: vmess, uuid: 352970a3-41c2-4d57-925f-452d76ba6d23, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: V30-付费推荐:dlj.tf/ssrsub 2, server: 149.28.35.248, port: 49726, client-fingerprint: chrome, type: vmess, uuid: 2f4a30ab-803a-40b0-d5ae-c691c3bdf138, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: V31-付费推荐:dlj.tf/ssrsub 2, server: 149.28.44.151, port: 37403, client-fingerprint: chrome, type: vmess, uuid: c5b3caa5-2a98-45a8-9867-20b7c872221b, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: V32-付费推荐:dlj.tf/ssrsub 2, server: 149.28.46.252, port: 18118, client-fingerprint: chrome, type: vmess, uuid: e223876d-ae70-4889-f6cf-15097a008888, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: V33-付费推荐:dlj.tf/ssrsub 2, server: 207.246.81.104, port: 44270, client-fingerprint: chrome, type: vmess, uuid: 4e6f5546-bc2f-450d-d669-f5ac822e6fde, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: V34-付费推荐:dlj.tf/ssrsub 2, server: 144.202.59.26, port: 57061, client-fingerprint: chrome, type: vmess, uuid: e90a1709-fd94-44d3-f809-8849837cc2d3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: V35-付费推荐:dlj.tf/ssrsub 2, server: 149.28.124.239, port: 34112, client-fingerprint: chrome, type: vmess, uuid: 83486d3b-2a38-480e-dc0f-fd2db85df3b3, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: V36-付费推荐:dlj.tf/ssrsub 2, server: 156.235.89.251, port: 16100, client-fingerprint: chrome, type: vmess, uuid: 255b2ba7-3848-4f54-c0b5-68ea3f1a314c, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: V37-付费推荐:dlj.tf/ssrsub 2, server: 156.236.76.198, port: 31579, client-fingerprint: chrome, type: vmess, uuid: fa02a429-c6b4-4951-dd38-512bb077182d, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: V38-付费推荐:dlj.tf/ssrsub 2, server: 156.225.64.76, port: 16921, client-fingerprint: chrome, type: vmess, uuid: 515866e4-baf9-4646-8bc1-c950e811ad7e, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: V39-付费推荐:dlj.tf/ssrsub 2, server: 2.58.87.221, port: 46628, client-fingerprint: chrome, type: vmess, uuid: f6ba9e5a-711c-496f-be60-ac5464dec2b8, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, udp: true}
-  - {name: V40-付费推荐:dlj.tf/ssrsub 2, server: 103.179.142.44, port: 20000, client-fingerprint: chrome, type: vmess, uuid: 1007421d-47a9-4ccf-c30a-2fc815c98dca, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fat}, udp: true}
-  - {name: V41-付费推荐:dlj.tf/ssrsub 2, server: 8.222.174.108, port: 2082, client-fingerprint: chrome, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: s1c.v2.v001sss.xyz}}, udp: true}
-  - {name: 美国+华盛顿Cogent通信公司, server: 38.75.137.93, port: 9101, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, tfo: false, udp: true}
-  - {name: 美国+华盛顿Cogent通信公司 2, server: 38.75.137.93, port: 5003, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, tfo: false, udp: true}
-  - {name: 美国+华盛顿Cogent通信公司 3, server: 38.75.137.93, port: 8009, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, tfo: false, udp: true}
-  - {name: 英国+伦敦Microsoft公司, server: 51.140.32.78, port: 54295, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: gevxg7mpES2FXZY1Q7B8FM, tfo: false, udp: true}
-  - {name: 美国+华盛顿Cogent通信公司 4, server: 38.143.66.87, port: 5000, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, tfo: false, udp: true}
-  - {name: 美国+华盛顿Cogent通信公司 5, server: 38.75.137.42, port: 8882, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, tfo: false, udp: true}
-  - {name: 美国+华盛顿Cogent通信公司 6, server: 38.75.137.105, port: 6379, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, tfo: false, udp: true}
-  - {name: 美国+华盛顿Cogent通信公司 7, server: 38.75.137.42, port: 8080, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, tfo: false, udp: true}
-  - {name: 美国+华盛顿Cogent通信公司 8, server: 38.75.137.93, port: 8119, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, tfo: false, udp: true}
-  - {name: 美国+华盛顿Cogent通信公司 9, server: 38.75.136.33, port: 8119, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, tfo: false, udp: true}
-  - {name: 美国+华盛顿Cogent通信公司 10, server: 38.75.137.105, port: 8119, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, tfo: false, udp: true}
-  - {name: 美国+华盛顿Cogent通信公司 11, server: 38.75.136.33, port: 5003, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, tfo: false, udp: true}
-  - {name: 美国+华盛顿Cogent通信公司 12, server: 38.75.137.42, port: 2375, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, tfo: false, udp: true}
-  - {name: 美国+华盛顿Cogent通信公司 13, server: 38.75.136.33, port: 5001, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, tfo: false, udp: true}
-  - {name: 美国+华盛顿Cogent通信公司 14, server: 38.75.137.93, port: 8091, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, tfo: false, udp: true}
-  - {name: 美国+华盛顿Cogent通信公司 15, server: 38.75.136.33, port: 8080, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, tfo: false, udp: true}
-  - {name: 美国+华盛顿Cogent通信公司 16, server: 38.75.136.33, port: 2375, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, tfo: false, udp: true}
-  - {name: 美国+华盛顿Cogent通信公司 17, server: 38.75.137.93, port: 8090, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, tfo: false, udp: true}
-  - {name: 广东省广州市+移动, server: gran.efnwgood.top, port: 28894, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 9bc1eddf-1674-40f1-ad64-00a6fc5c2054, tfo: false, udp: true}
-  - {name: 美国+华盛顿Cogent通信公司 18, server: 38.75.137.105, port: 3389, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, tfo: false, udp: true}
-  - {name: 美国+华盛顿Cogent通信公司 19, server: 38.75.137.93, port: 2376, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, tfo: false, udp: true}
-  - {name: 美国+华盛顿Cogent通信公司 20, server: 38.75.137.105, port: 6697, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, tfo: false, udp: true}
-  - {name: 美国+华盛顿Cogent通信公司 21, server: 38.75.137.42, port: 5600, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, tfo: false, udp: true}
-  - {name: 美国+华盛顿Cogent通信公司 22, server: 38.75.137.42, port: 2376, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, tfo: false, udp: true}
-  - {name: 美国+华盛顿Cogent通信公司 23, server: 38.75.137.93, port: 5500, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, tfo: false, udp: true}
-  - {name: 美国+华盛顿Cogent通信公司 24, server: 38.75.136.33, port: 2376, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, tfo: false, udp: true}
-  - {name: 美国+华盛顿Cogent通信公司 25, server: 38.75.137.93, port: 6679, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, tfo: false, udp: true}
-  - {name: 美国+华盛顿Cogent通信公司 26, server: 38.75.137.105, port: 8090, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, tfo: false, udp: true}
-  - {name: 美国+华盛顿Cogent通信公司 27, server: 38.75.137.42, port: 5004, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, tfo: false, udp: true}
-  - {name: 美国+华盛顿Cogent通信公司 28, server: 38.75.137.42, port: 8091, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, tfo: false, udp: true}
-  - {name: 美国+华盛顿Cogent通信公司 29, server: 38.75.137.93, port: 2375, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, tfo: false, udp: true}
-  - {name: 美国+华盛顿Cogent通信公司 30, server: 38.75.136.33, port: 9102, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, tfo: false, udp: true}
-  - {name: 美国+华盛顿Cogent通信公司 31, server: 38.75.136.33, port: 6679, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, tfo: false, udp: true}
-  - {name: 美国+华盛顿Cogent通信公司 32, server: 38.75.137.93, port: 5601, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, tfo: false, udp: true}
-  - {name: 美国+华盛顿Cogent通信公司 33, server: 38.75.137.93, port: 9102, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, tfo: false, udp: true}
-  - {name: 美国+华盛顿Cogent通信公司 34, server: 38.75.137.93, port: 5001, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, tfo: false, udp: true}
-  - {name: 美国+华盛顿Cogent通信公司 35, server: 38.75.136.33, port: 8888, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, tfo: false, udp: true}
-  - {name: 美国+华盛顿Cogent通信公司 36, server: 38.75.137.93, port: 6379, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, tfo: false, udp: true}
-  - {name: 美国+华盛顿Cogent通信公司 37, server: 38.75.136.33, port: 5600, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, tfo: false, udp: true}
-  - {name: 美国+华盛顿Cogent通信公司 38, server: 38.75.136.33, port: 8881, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, tfo: false, udp: true}
-  - {name: 美国+华盛顿Cogent通信公司 39, server: 38.75.137.42, port: 7002, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, tfo: false, udp: true}
-  - {name: 美国+华盛顿Cogent通信公司 40, server: 38.75.137.93, port: 3389, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, tfo: false, udp: true}
-  - {name: 美国+华盛顿Cogent通信公司 41, server: 38.75.137.105, port: 9101, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, tfo: false, udp: true}
-  - {name: 美国+华盛顿Cogent通信公司 42, server: 38.75.137.42, port: 8000, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, tfo: false, udp: true}
-  - {name: 美国+德克萨斯州达拉斯Linode数据中心, server: 45.56.69.64, port: 80, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: QxS7HoM6VSTGHCJg8sVFBS, tfo: false, udp: true}
-  - {name: 美国+华盛顿Cogent通信公司 43, server: 38.75.136.33, port: 7306, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, tfo: false, udp: true}
-  - {name: 美国+华盛顿Cogent通信公司 44, server: 38.75.137.105, port: 7002, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, tfo: false, udp: true}
-  - {name: 美国+华盛顿Cogent通信公司 45, server: 38.75.136.33, port: 8118, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, tfo: false, udp: true}
-  - {name: 美国+华盛顿Cogent通信公司 46, server: 38.75.137.105, port: 8881, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, tfo: false, udp: true}
-  - {name: 美国+华盛顿Cogent通信公司 47, server: 38.75.136.33, port: 6697, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, tfo: false, udp: true}
-  - {name: 美国+华盛顿Cogent通信公司 48, server: 38.75.137.93, port: 8008, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, tfo: false, udp: true}
-  - {name: 美国+华盛顿Cogent通信公司 49, server: 38.75.136.33, port: 8882, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, tfo: false, udp: true}
-  - {name: 美国+华盛顿Cogent通信公司 50, server: 38.75.137.42, port: 5003, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, tfo: false, udp: true}
-  - {name: 广东省江门市+移动, server: ddns.olucloud.subapi.cc, port: 20009, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 55a021e6-30f6-46c5-8297-a2b74d0b3031, tfo: false, udp: true}
-  - {name: 美国+华盛顿Cogent通信公司 51, server: 38.75.137.42, port: 8881, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, tfo: false, udp: true}
-  - {name: 美国+华盛顿Cogent通信公司 52, server: 38.75.136.33, port: 6379, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, tfo: false, udp: true}
-  - {name: github.com/freefq - 俄罗斯  1, server: 185.242.86.156, port: 54170, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 36ZCHeabUSfKjfQEvJ4HDV, tfo: false, udp: true}
-  - {name: github.com/freefq - 印度  2, server: 202.78.162.5, port: 443, client-fingerprint: chrome, type: vmess, uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: irsoft.sytes.net}}, udp: true}
-  - {name: github.com/freefq - 印度  3, server: 202.78.162.5, port: 443, client-fingerprint: chrome, type: vmess, uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sahand.serveminecraft.net}}, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 4, server: www.darkroom.lol, port: 8080, client-fingerprint: chrome, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: www.darkroom.lol}}, udp: true}
-  - {name: github.com/freefq - 波兰  5, server: 193.243.147.128, port: 40368, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 7BcLdsO1WweoGD0X, tfo: false, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 6, server: server31.beheshtbaneh.com, port: 8880, client-fingerprint: chrome, type: vmess, uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: server31.beheshtbaneh.com}}, udp: true}
-  - {name: github.com/freefq - 广东省移动 7, server: data-us-v1.shwjfkw.cn, port: 20401, client-fingerprint: chrome, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /debian, headers: {Host: data-us-v1.shwjfkw.cn}}, udp: true}
-  - {name: github.com/freefq - 广东省江门市移动 8, server: service.ouluyun9803.com, port: 20003, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2, tfo: false, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare公司CDN节点 9, server: 104.21.82.183, port: 8880, client-fingerprint: chrome, type: vmess, uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: server26.beheshtbaneh.com}}, udp: true}
-  - {name: github.com/freefq - 印度  10, server: 202.78.162.5, port: 443, client-fingerprint: chrome, type: vmess, uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: pendar.onthewifi.com}}, udp: true}
-  - {name: github.com/freefq - 广东省江门市移动 11, server: service.ouluyun9803.com, port: 26667, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2, tfo: false, udp: true}
-  - {name: github.com/freefq - 广东省江门市移动 12, server: service.ouluyun9803.com, port: 20005, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2, tfo: false, udp: true}
-  - {name: github.com/freefq - 美国Fastly全球Anycast节点 13, server: gov.uk, port: 443, client-fingerprint: chrome, type: vmess, uuid: 77848824-93b7-4b89-ffd0-e91afff406ce, alterId: 0, cipher: auto, tls: true, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /77848824, headers: {Host: zheshiscp.com}}, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare节点 14, server: server32.beheshtbaneh.com, port: 8880, client-fingerprint: chrome, type: vmess, uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: server32.beheshtbaneh.com}}, udp: true}
-  - {name: 请加入我们的聊天群组💬, server: www2.dtku48.xyz, port: 22334, client-fingerprint: chrome, type: hysteria, auth_str: dongtaiwang.com, auth-str: dongtaiwang.com, up: 50, down: 80, fast-open: false, protocol: udp, skip-cert-verify: true, alpn: [h3], udp: true}
-  - {name: www.chrome-helper.cc:21830, server: www.chrome-helper.cc, port: 21830, client-fingerprint: chrome, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 V101-US-付费推荐:dlj.tf/ssrsub, server: russia.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: 56c6ef30-a930-4bcb-a159-85d9838fadae, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: sssub.v2.001.ssrsub.com}}}
+  - {name: 🇺🇸 V102-US-付费推荐:dlj.tf/ssrsub, server: russia.com, port: 8880, client-fingerprint: chrome, type: vmess, uuid: 56c6ef30-a930-4bcb-a159-85d9838fadae, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: sssub.v2.001.ssrsub.com}}}
+  - {name: 🇧🇷 巴西圣保罗 CloudFlare节点, server: 188.114.97.3, port: 80, client-fingerprint: chrome, type: vmess, uuid: e0e2e209-6626-484b-8895-39202961ce90, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: Fr2.vmess.site.}}}
+  - {name: 🇨🇳 北京市 移动, server: dxcdn02.dorabbb.top, port: 48821, client-fingerprint: chrome, type: vmess, uuid: 404dea84-58af-4e6b-a11b-cbc10e97cf34, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇷🇺 俄罗斯 鞑靼斯坦喀山justhost, server: 46.17.42.4, port: 54321, client-fingerprint: chrome, type: vmess, uuid: c34d94d9-97d4-4496-9b7f-727dd678e1e0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /iphone, headers: {Host: eedp257bubu2wefy1.lovebaipiao.net}}}
+  - {name: 🇨🇳 广东省 移动, server: 183.238.202.173, port: 51193, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇨🇳 广东省 移动 2, server: m.cnmjin.net, port: 16632, client-fingerprint: chrome, type: vmess, uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com}}}
+  - {name: 🇨🇳 广东省广州市 移动, server: 120.232.240.46, port: 16627, client-fingerprint: chrome, type: vmess, uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /niuniu, headers: {Host: "%7B%22Host%22:%22193.25.215.160%22%7D"}}}
+  - {name: 🇨🇳 湖南省 联通, server: yes.cnmjcn.net, port: 16632, client-fingerprint: chrome, type: vmess, uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com}}}
+  - {name: 🇺🇸 美国 Amazon EC2服务器, server: bgroup.node2.v.nodelist-gfwairport2.top, port: 41001, client-fingerprint: chrome, type: vmess, uuid: 2155145a-b1b5-443a-8977-670f6bd10f02, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: 104.19.21.24, port: 8880, client-fingerprint: chrome, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: e9e3cc13-db48-4cc1-8c24-7626439a5339-vm, headers: {Host: funk-england-indirect-gospel.trycloudflare.com}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 2, server: 104.19.34.71, port: 2052, client-fingerprint: chrome, type: vmess, uuid: 33f0a763-428a-4779-b21f-51307a7d4527, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: jdxg.xyyjc.top}}
+  - {name: 🇺🇸 美国 CloudFlare节点 3, server: 104.17.221.34, port: 8080, client-fingerprint: chrome, type: vmess, uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: usakansas.xlb8.eu.org}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 4, server: www.speedtest.net, port: 80, client-fingerprint: chrome, type: vmess, uuid: 1e99893d-8046-4825-9d28-f6de91147337, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: De2.vmess.site.}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 5, server: 172.64.32.154, port: 2087, client-fingerprint: chrome, type: vmess, uuid: 2a3263e2-891c-4446-b474-a8c63acb6e25, alterId: 0, cipher: auto, tls: true, servername: dd21146ygfdSNA9191281280kdm22kas2123Aawdsd1234bb4576248116.1ova20hge5grhtm.info, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}}
+  - {name: 🇺🇸 美国 CloudFlare节点 6, server: 172.67.193.67, port: 80, client-fingerprint: chrome, type: vmess, uuid: 408438b0-fe40-44de-af19-0e5e6bb750ce, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: gulasch.online}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 7, server: 104.26.9.22, port: 8080, client-fingerprint: chrome, type: vmess, uuid: ef8c954e-014f-4b36-8273-9b5086afab34, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: ef8c954e-014f-4b36-8273-9b5086afab34-vm, headers: {Host: dual-nothing-prep-exit.trycloudflare.com}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 8, server: 104.19.42.49, port: 80, client-fingerprint: chrome, type: vmess, uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: jp.xlb8.eu.org}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 9, server: 172.67.172.67, port: 8080, client-fingerprint: chrome, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: oiictw.yydsii.com}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 10, server: 104.16.67.38, port: 80, client-fingerprint: chrome, type: vmess, uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /v118-fccxmxm35, headers: {Host: us3e-mmnnfr9dop0.v2freevpn.com}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 11, server: 172.67.130.140, port: 2082, client-fingerprint: chrome, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: s1c.v2.v001sss.xyz}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 12, server: cf1.ftclashcloud.site, port: 80, client-fingerprint: chrome, type: vmess, uuid: 39fd55c9-073c-49fc-bd77-d6d438e618ae, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: mhyusa01.ftclashcloud.online}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 13, server: russia.com, port: 2095, client-fingerprint: chrome, type: vmess, uuid: 4b05abf5-c68d-4ffc-915f-add2f3786dca, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: sssub.v2.001.ssrsub.com}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 14, server: 104.19.47.238, port: 8080, client-fingerprint: chrome, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: oiictw.yydsii.com}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 15, server: 172.67.199.143, port: 8080, client-fingerprint: chrome, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: oiictw.yydsii.com}}
+  - {name: 🇺🇸 美国 CloudFlare节点 16, server: 104.21.8.157, port: 2082, client-fingerprint: chrome, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: s1c.v2.v001sss.xyz}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 17, server: 172.67.199.118, port: 8080, client-fingerprint: chrome, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: oiictw.yydsii.com}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 18, server: 172.67.185.79, port: 8080, client-fingerprint: chrome, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: oiictw.yydsii.com}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 19, server: cf2.ftclashcloud.site, port: 80, client-fingerprint: chrome, type: vmess, uuid: 39fd55c9-073c-49fc-bd77-d6d438e618ae, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: mhyusa01.ftclashcloud.online}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 20, server: 198.41.221.0, port: 2052, client-fingerprint: chrome, type: vmess, uuid: 4bd3df41-1509-4f6f-8cf7-757e3c5960db, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: sg.diao.icu}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 21, server: 172.67.169.91, port: 8080, client-fingerprint: chrome, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: oiictw.yydsii.com}}
+  - {name: 🇺🇸 美国 CloudFlare节点 22, server: 104.19.47.186, port: 8080, client-fingerprint: chrome, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: oiictw.yydsii.com}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 23, server: russia.com, port: 8080, client-fingerprint: chrome, type: vmess, uuid: 4b05abf5-c68d-4ffc-915f-add2f3786dca, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: sssub.v2.001.ssrsub.com, headers: {Host: russia.com}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 24, server: 172.67.185.242, port: 8080, client-fingerprint: chrome, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: oiictw.yydsii.com}}
+  - {name: 🇺🇸 美国 CloudFlare节点 25, server: 104.19.42.49, port: 8080, client-fingerprint: chrome, type: vmess, uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: usakansas.xlb8.eu.org}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 26, server: zula.ir, port: 80, client-fingerprint: chrome, type: vmess, uuid: da62a137-3611-4dd7-8523-b5266afe6fe5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: Uk2.vmess.site., headers: {Host: zula.ir}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 27, server: cf4.ftclashcloud.site, port: 80, client-fingerprint: chrome, type: vmess, uuid: 39fd55c9-073c-49fc-bd77-d6d438e618ae, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: mhyusa01.ftclashcloud.online}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 28, server: 172.67.185.64, port: 8080, client-fingerprint: chrome, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: oiictw.yydsii.com}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 29, server: 104.19.44.174, port: 8080, client-fingerprint: chrome, type: vmess, uuid: 3fdf9d48-578a-42dc-9fdd-0dfcefa3d0c5, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: amd2.720208.xyz}}}
+  - {name: 🇺🇸 美国 华盛顿Cogent通信公司, server: 38.33.46.89, port: 37000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, servername: www.13987826.xyz, network: ws, ws-opts: {path: /path/191019072927}}
+  - {name: 🇺🇸 美国 加利福尼亚, server: 64.176.173.234, port: 3389, client-fingerprint: chrome, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国加利福尼亚州洛杉矶 Coperation Coloction数据中心, server: 23.224.166.58, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/191019072927, headers: {Host: www.03086554.xyz}}}
+  - {name: 🇯🇵 日本 东京PEG TECH, server: 104.233.243.80, port: 49995, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, network: ws, ws-opts: {path: /path/191019072927, headers: {Host: www.38067490.xyz}}}
+  - {name: 🇮🇷 伊朗 V2CROSS.COM, server: 94.182.150.230, port: 80, client-fingerprint: chrome, type: vmess, uuid: 2b7ce1d2-0372-4104-aa06-f7d999f26e1d, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇮🇷 伊朗 V2CROSS.COM 2, server: 128.140.127.204, port: 2095, client-fingerprint: chrome, type: vmess, uuid: a7edced4-d006-460e-9f79-4ae8b64ae177, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇮🇪 爱尔兰+V2CROSS.COM, server: 13.74.117.2, port: 24701, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: evQBKxxL32qsGBYbomzXTM}
+  - {name: 🇺🇸 北美地区+V2CROSS.COM, server: 104.167.197.23, port: 57456, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 3fbeb668f48414f6}
+  - {name: 🇺🇸 北美地区+V2CROSS.COM 2, server: 23.157.40.26, port: 5001, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇸 北美地区+V2CROSS.COM 3, server: 23.157.40.29, port: 7001, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇵🇱 波兰+V2CROSS.COM, server: 188.116.20.185, port: 1080, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 3pURuTUf-lFgg5qWg8euFA}
+  - {name: 🇷🇺 俄罗斯+V2CROSS.COM, server: 185.117.116.221, port: 443, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: teDIhTPl9XXzQ0vWUnS_cA}
+  - {name: 🇫🇷 法国+OVH, server: 51.77.53.200, port: 3389, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇫🇷 法国+OVH 2, server: 51.77.53.200, port: 9101, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇫🇷 法国+OVH 3, server: 51.77.53.200, port: 3306, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇫🇷 法国+OVH 4, server: 51.77.53.200, port: 5003, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇫🇷 法国+OVH 5, server: 51.77.53.200, port: 8888, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇫🇷 法国+OVH 6, server: 51.77.53.200, port: 8091, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇫🇷 法国+OVH 7, server: 51.77.53.200, port: 6679, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇫🇷 法国+OVH 8, server: 51.77.53.200, port: 4444, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇫🇷 法国+OVH 9, server: 51.77.53.200, port: 8009, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇫🇷 法国+OVH 10, server: 51.77.53.200, port: 6379, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 🇫🇷 法国+OVH 11, server: 51.77.53.200, port: 8882, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇫🇷 法国+OVH 12, server: 51.77.53.200, port: 7001, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇫🇷 法国+OVH 13, server: 51.77.53.200, port: 8008, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇫🇷 法国+OVH 14, server: 51.77.53.200, port: 9102, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇫🇷 法国+OVH 15, server: 51.77.53.200, port: 8080, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇫🇷 法国+OVH 16, server: 51.77.53.200, port: 7002, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇫🇷 法国+OVH 17, server: 51.77.53.200, port: 8119, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇫🇷 法国+OVH 18, server: 51.77.53.200, port: 7307, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇫🇷 法国+OVH 19, server: 51.77.53.200, port: 5001, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇫🇷 法国+OVH 20, server: 51.77.53.200, port: 8118, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇫🇷 法国+OVH 21, server: 51.77.53.200, port: 5601, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇫🇷 法国+OVH 22, server: 51.77.53.200, port: 2376, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇫🇷 法国+OVH 23, server: 51.77.53.200, port: 5500, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇫🇷 法国+OVH 24, server: 51.77.53.200, port: 8881, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇫🇷 法国+OVH 25, server: 51.77.53.200, port: 5000, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇫🇷 法国+OVH 26, server: 51.77.53.200, port: 7306, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇫🇷 法国+OVH 27, server: 51.77.53.200, port: 6697, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇫🇷 法国+OVH 28, server: 51.77.53.200, port: 8090, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇫🇷 法国+OVH 29, server: 51.77.53.200, port: 8000, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇫🇷 法国+OVH 30, server: 51.77.53.200, port: 2375, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇫🇷 法国+OVH 31, server: 51.77.53.200, port: 5004, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇫🇷 法国+OVH机房SAS硬盘BGP主机, server: 149.202.82.172, port: 7307, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇫🇷 法国+OVH机房SAS硬盘BGP主机 2, server: 149.202.82.172, port: 6379, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: 🇫🇷 法国+OVH机房SAS硬盘BGP主机 3, server: 149.202.82.172, port: 5004, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇫🇷 法国+OVH机房SAS硬盘BGP主机 4, server: 149.202.82.172, port: 8091, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇫🇷 法国+OVH机房SAS硬盘BGP主机 5, server: 149.202.82.172, port: 8000, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇫🇷 法国+OVH机房SAS硬盘BGP主机 6, server: 149.202.82.172, port: 9102, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇫🇷 法国+OVH机房SAS硬盘BGP主机 7, server: 149.202.82.172, port: 5601, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇫🇷 法国+OVH机房SAS硬盘BGP主机 8, server: 149.202.82.172, port: 5500, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇫🇷 法国+OVH机房SAS硬盘BGP主机 9, server: 149.202.82.172, port: 7306, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇫🇷 法国+OVH机房SAS硬盘BGP主机 10, server: 149.202.82.172, port: 8881, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇫🇷 法国+OVH机房SAS硬盘BGP主机 11, server: 149.202.82.172, port: 3389, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇫🇷 法国+OVH机房SAS硬盘BGP主机 12, server: 149.202.82.172, port: 8888, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇫🇷 法国+OVH机房SAS硬盘BGP主机 13, server: 149.202.82.172, port: 7001, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇫🇷 法国+OVH机房SAS硬盘BGP主机 14, server: 149.202.82.172, port: 6697, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇫🇷 法国+OVH机房SAS硬盘BGP主机 15, server: 149.202.82.172, port: 5600, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇫🇷 法国+OVH机房SAS硬盘BGP主机 16, server: 149.202.82.172, port: 8080, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇫🇷 法国+OVH机房SAS硬盘BGP主机 17, server: 149.202.82.172, port: 8119, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇫🇷 法国+OVH机房SAS硬盘BGP主机 18, server: 149.202.82.172, port: 5000, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇫🇷 法国+OVH机房SAS硬盘BGP主机 19, server: 149.202.82.172, port: 4444, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇫🇷 法国+OVH机房SAS硬盘BGP主机 20, server: 149.202.82.172, port: 2376, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇫🇷 法国+OVH机房SAS硬盘BGP主机 21, server: 149.202.82.172, port: 5001, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇫🇷 法国+OVH机房SAS硬盘BGP主机 22, server: 149.202.82.172, port: 3306, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇫🇷 法国+OVH机房SAS硬盘BGP主机 23, server: 149.202.82.172, port: 8090, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇫🇷 法国+OVH机房SAS硬盘BGP主机 24, server: 149.202.82.172, port: 8882, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇫🇷 法国+OVH机房SAS硬盘BGP主机 25, server: 149.202.82.172, port: 9101, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: 🇫🇷 法国+OVH机房SAS硬盘BGP主机 26, server: 149.202.82.172, port: 5003, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇫🇷 法国+OVH机房SAS硬盘BGP主机 27, server: 149.202.82.172, port: 8008, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇫🇷 法国+OVH机房SAS硬盘BGP主机 28, server: 149.202.82.172, port: 6679, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 🇫🇷 法国+OVH机房SAS硬盘BGP主机 29, server: 149.202.82.172, port: 7002, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: 🇫🇷 法国+OVH机房SAS硬盘BGP主机 30, server: 149.202.82.172, port: 8009, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇫🇷 法国+OVH机房SAS硬盘BGP主机 31, server: 149.202.82.172, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇫🇷 法国+OVH机房SAS硬盘BGP主机 32, server: 149.202.82.172, port: 2375, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇫🇷 法国+OVH机房SAS硬盘BGP主机 33, server: 149.202.82.172, port: 8118, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇨🇳 广东省广州市+移动, server: iepl2.forlive.live, port: 50006, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 37573de0-7a4b-3c51-ba00-b42aad7c780d}
+  - {name: 🇨🇳 广东省广州市+移动 2, server: iepl2.forlive.live, port: 50105, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: a4ac2592-28e7-4927-94b3-277edae0869a}
+  - {name: 🇨🇳 广东省深圳市+阿里云, server: 119.23.104.213, port: 8474, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: a501c82c72d790b8}
+  - {name: 🇷🇴 罗马尼亚+V2CROSS.COM, server: 77.83.246.55, port: 1080, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 3pURuTUf-lFgg5qWg8euFA}
+  - {name: 🇺🇸 美国+Akamai科技公司CDN网络节点, server: 172.232.37.114, port: 80, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: zGLrOR92Jh0mhaqrpZBcKU}
+  - {name: 🇺🇸 美国+Alabanza, server: 65.108.214.43, port: 1080, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: jN30BY_qtnh8HLXqp0IM2g}
+  - {name: 🇺🇸 美国+V2CROSS.COM, server: 45.158.171.148, port: 8080, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: a8bt9fY0QsLS6eLnXUe0Ym}
+  - {name: 🇺🇸 美国+V2CROSS.COM 2, server: 45.159.249.42, port: 7843, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: xvJMMc74iyYr1kmyZT6D73}
+  - {name: 🇺🇸 美国+V2CROSS.COM 3, server: 45.158.171.66, port: 8080, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A}
+  - {name: 🇺🇸 美国+华盛顿Cogent通信公司, server: 38.180.106.52, port: 1080, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 3pURuTUf-lFgg5qWg8euFA}
+  - {name: 🇺🇸 美国+华盛顿Cogent通信公司 2, server: 38.121.43.248, port: 8882, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: 🇺🇸 美国+华盛顿Cogent通信公司 3, server: 38.121.43.71, port: 8008, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: 🇺🇸 美国+华盛顿Cogent通信公司 4, server: 38.121.43.97, port: 8119, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: 🇺🇸 美国+华盛顿州, server: 205.134.180.139, port: 443, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: lWaGPVFjmnag}
+  - {name: 🇸🇬 美国+新泽西州皮特卡维Choopa数据中心, server: 140.82.2.66, port: 20088, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: ڦʺl٬TJ1q8DFgǪǥ}
+  - {name: 🇸🇬 新加坡+Amazon数据中心, server: 54.169.203.6, port: 50001, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 2155145a-b1b5-443a-8977-670f6bd10f02}
+  - {name: 🇮🇹 意大利+V2CROSS.COM, server: 212.102.53.80, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 🇮🇹 意大利+V2CROSS.COM 2, server: 212.102.53.193, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 🇮🇹 意大利+V2CROSS.COM 3, server: 212.102.53.194, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 🇮🇹 意大利+V2CROSS.COM 4, server: 212.102.53.197, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 🇮🇹 意大利+V2CROSS.COM 5, server: uk-dc1.yangon.club, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: shadowsocks}
+  - {name: 🇺🇸 V101-US-付费推荐:dlj.tf/ssrsub 2, server: russia.com, port: 80, client-fingerprint: chrome, type: vmess, uuid: 56c6ef30-a930-4bcb-a159-85d9838fadae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: sssub.v2.001.ssrsub.com}}}
+  - {name: 🇺🇸 V102-US-付费推荐:dlj.tf/ssrsub 2, server: russia.com, port: 8880, client-fingerprint: chrome, type: vmess, uuid: 56c6ef30-a930-4bcb-a159-85d9838fadae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: sssub.v2.001.ssrsub.com}}}
+  - {name: 🇧🇷 巴西圣保罗 CloudFlare节点 2, server: 188.114.97.3, port: 80, client-fingerprint: chrome, type: vmess, uuid: e0e2e209-6626-484b-8895-39202961ce90, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: Fr2.vmess.site.}}}
+  - {name: 🇨🇳 北京市 移动 2, server: dxcdn02.dorabbb.top, port: 48821, client-fingerprint: chrome, type: vmess, uuid: 404dea84-58af-4e6b-a11b-cbc10e97cf34, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇷🇺 俄罗斯 鞑靼斯坦喀山justhost 2, server: 46.17.42.4, port: 54321, client-fingerprint: chrome, type: vmess, uuid: c34d94d9-97d4-4496-9b7f-727dd678e1e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /iphone, headers: {Host: eedp257bubu2wefy1.lovebaipiao.net}}}
+  - {name: 🇨🇳 广东省 移动 3, server: 183.238.202.173, port: 51193, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇨🇳 广东省 移动 2 2, server: m.cnmjin.net, port: 16632, client-fingerprint: chrome, type: vmess, uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com}}}
+  - {name: 🇨🇳 广东省广州市 移动 2, server: 120.232.240.46, port: 16627, client-fingerprint: chrome, type: vmess, uuid: 5f6b3c3f-b0a8-33f5-95c6-371f8c6af973, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /niuniu, headers: {Host: "%7B%22Host%22:%22193.25.215.160%22%7D"}}}
+  - {name: 🇨🇳 湖南省 联通 2, server: yes.cnmjcn.net, port: 16632, client-fingerprint: chrome, type: vmess, uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com}}}
+  - {name: 🇺🇸 美国 Amazon EC2服务器 2, server: bgroup.node2.v.nodelist-gfwairport2.top, port: 41001, client-fingerprint: chrome, type: vmess, uuid: 2155145a-b1b5-443a-8977-670f6bd10f02, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 美国 CloudFlare节点 30, server: 104.19.21.24, port: 8880, client-fingerprint: chrome, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: e9e3cc13-db48-4cc1-8c24-7626439a5339-vm, headers: {Host: funk-england-indirect-gospel.trycloudflare.com}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 2 2, server: 104.19.34.71, port: 2052, client-fingerprint: chrome, type: vmess, uuid: 33f0a763-428a-4779-b21f-51307a7d4527, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: jdxg.xyyjc.top}}
+  - {name: 🇺🇸 美国 CloudFlare节点 3 2, server: 104.17.221.34, port: 8080, client-fingerprint: chrome, type: vmess, uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: usakansas.xlb8.eu.org}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 4 2, server: www.speedtest.net, port: 80, client-fingerprint: chrome, type: vmess, uuid: 1e99893d-8046-4825-9d28-f6de91147337, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: De2.vmess.site.}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 5 2, server: 172.64.32.154, port: 2087, client-fingerprint: chrome, type: vmess, uuid: 2a3263e2-891c-4446-b474-a8c63acb6e25, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: dd21146ygfdSNA9191281280kdm22kas2123Aawdsd1234bb4576248116.1ova20hge5grhtm.info, network: grpc, grpc-opts: {grpc-service-name: /}}
+  - {name: 🇺🇸 美国 CloudFlare节点 6 2, server: 172.67.193.67, port: 80, client-fingerprint: chrome, type: vmess, uuid: 408438b0-fe40-44de-af19-0e5e6bb750ce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: gulasch.online}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 7 2, server: 104.26.9.22, port: 8080, client-fingerprint: chrome, type: vmess, uuid: ef8c954e-014f-4b36-8273-9b5086afab34, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: ef8c954e-014f-4b36-8273-9b5086afab34-vm, headers: {Host: dual-nothing-prep-exit.trycloudflare.com}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 8 2, server: 104.19.42.49, port: 80, client-fingerprint: chrome, type: vmess, uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: jp.xlb8.eu.org}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 9 2, server: 172.67.172.67, port: 8080, client-fingerprint: chrome, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: oiictw.yydsii.com}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 10 2, server: 104.16.67.38, port: 80, client-fingerprint: chrome, type: vmess, uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /v118-fccxmxm35, headers: {Host: us3e-mmnnfr9dop0.v2freevpn.com}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 11 2, server: 172.67.130.140, port: 2082, client-fingerprint: chrome, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: s1c.v2.v001sss.xyz}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 12 2, server: cf1.ftclashcloud.site, port: 80, client-fingerprint: chrome, type: vmess, uuid: 39fd55c9-073c-49fc-bd77-d6d438e618ae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: mhyusa01.ftclashcloud.online}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 13 2, server: russia.com, port: 2095, client-fingerprint: chrome, type: vmess, uuid: 4b05abf5-c68d-4ffc-915f-add2f3786dca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /api/v3/download.getFile, headers: {Host: sssub.v2.001.ssrsub.com}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 14 2, server: 104.19.47.238, port: 8080, client-fingerprint: chrome, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: oiictw.yydsii.com}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 15 2, server: 172.67.199.143, port: 8080, client-fingerprint: chrome, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: oiictw.yydsii.com}}
+  - {name: 🇺🇸 美国 CloudFlare节点 16 2, server: 104.21.8.157, port: 2082, client-fingerprint: chrome, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: s1c.v2.v001sss.xyz}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 17 2, server: 172.67.199.118, port: 8080, client-fingerprint: chrome, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: oiictw.yydsii.com}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 18 2, server: 172.67.185.79, port: 8080, client-fingerprint: chrome, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: oiictw.yydsii.com}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 19 2, server: cf2.ftclashcloud.site, port: 80, client-fingerprint: chrome, type: vmess, uuid: 39fd55c9-073c-49fc-bd77-d6d438e618ae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: mhyusa01.ftclashcloud.online}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 20 2, server: 198.41.221.0, port: 2052, client-fingerprint: chrome, type: vmess, uuid: 4bd3df41-1509-4f6f-8cf7-757e3c5960db, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sg.diao.icu}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 21 2, server: 172.67.169.91, port: 8080, client-fingerprint: chrome, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: oiictw.yydsii.com}}
+  - {name: 🇺🇸 美国 CloudFlare节点 22 2, server: 104.19.47.186, port: 8080, client-fingerprint: chrome, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: oiictw.yydsii.com}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 23 2, server: russia.com, port: 8080, client-fingerprint: chrome, type: vmess, uuid: 4b05abf5-c68d-4ffc-915f-add2f3786dca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: sssub.v2.001.ssrsub.com, headers: {Host: russia.com}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 24 2, server: 172.67.185.242, port: 8080, client-fingerprint: chrome, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: oiictw.yydsii.com}}
+  - {name: 🇺🇸 美国 CloudFlare节点 25 2, server: 104.19.42.49, port: 8080, client-fingerprint: chrome, type: vmess, uuid: c0453a16-67e9-4eab-bdc9-b9624ad6bd29, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: usakansas.xlb8.eu.org}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 26 2, server: zula.ir, port: 80, client-fingerprint: chrome, type: vmess, uuid: da62a137-3611-4dd7-8523-b5266afe6fe5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: Uk2.vmess.site., headers: {Host: zula.ir}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 27 2, server: cf4.ftclashcloud.site, port: 80, client-fingerprint: chrome, type: vmess, uuid: 39fd55c9-073c-49fc-bd77-d6d438e618ae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: mhyusa01.ftclashcloud.online}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 28 2, server: 172.67.185.64, port: 8080, client-fingerprint: chrome, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: oiictw.yydsii.com}}}
+  - {name: 🇺🇸 美国 CloudFlare节点 29 2, server: 104.19.44.174, port: 8080, client-fingerprint: chrome, type: vmess, uuid: 3fdf9d48-578a-42dc-9fdd-0dfcefa3d0c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai_8", headers: {Host: amd2.720208.xyz}}}
+  - {name: 🇺🇸 美国 华盛顿Cogent通信公司 2, server: 38.33.46.89, port: 37000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, servername: www.13987826.xyz, network: ws, ws-opts: {path: /path/191019072927}}
+  - {name: 🇺🇸 美国 加利福尼亚 2, server: 64.176.173.234, port: 3389, client-fingerprint: chrome, type: vmess, uuid: 9c050a86-d612-48f1-ec32-e573df08a1b7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 美国加利福尼亚州洛杉矶 Coperation Coloction数据中心 2, server: 23.224.166.58, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /path/191019072927, headers: {Host: www.03086554.xyz}}}
+  - {name: 🇯🇵 日本 东京PEG TECH 2, server: 104.233.243.80, port: 49995, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /path/191019072927, headers: {Host: www.38067490.xyz}}}
+  - {name: 🇮🇷 伊朗 V2CROSS.COM 3, server: 94.182.150.230, port: 80, client-fingerprint: chrome, type: vmess, uuid: 2b7ce1d2-0372-4104-aa06-f7d999f26e1d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇮🇷 伊朗 V2CROSS.COM 2 2, server: 128.140.127.204, port: 2095, client-fingerprint: chrome, type: vmess, uuid: a7edced4-d006-460e-9f79-4ae8b64ae177, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇷🇺 github.com/freefq - 俄罗斯  1, server: 185.242.86.156, port: 54170, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 36ZCHeabUSfKjfQEvJ4HDV}
+  - {name: 🇮🇳 github.com/freefq - 印度  2, server: 202.78.162.5, port: 443, client-fingerprint: chrome, type: vmess, uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: irsoft.sytes.net}}}
+  - {name: 🇮🇳 github.com/freefq - 印度  3, server: 202.78.162.5, port: 443, client-fingerprint: chrome, type: vmess, uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: sahand.serveminecraft.net}}}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 4, server: www.darkroom.lol, port: 8080, client-fingerprint: chrome, type: vmess, uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: www.darkroom.lol}}}
+  - {name: 🇵🇱 github.com/freefq - 波兰  5, server: 193.243.147.128, port: 40368, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: 7BcLdsO1WweoGD0X}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 6, server: server31.beheshtbaneh.com, port: 8880, client-fingerprint: chrome, type: vmess, uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: server31.beheshtbaneh.com}}}
+  - {name: 🇨🇳 github.com/freefq - 广东省移动 7, server: data-us-v1.shwjfkw.cn, port: 20401, client-fingerprint: chrome, type: vmess, uuid: b1478e24-4916-3abe-8f17-15931012ecbe, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /debian, headers: {Host: data-us-v1.shwjfkw.cn}}}
+  - {name: 🇨🇳 github.com/freefq - 广东省江门市移动 8, server: service.ouluyun9803.com, port: 20003, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 9, server: 104.21.82.183, port: 8880, client-fingerprint: chrome, type: vmess, uuid: 5a7021e0-26b4-45d6-b175-fe551601ca97, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: server26.beheshtbaneh.com}}}
+  - {name: 🇮🇳 github.com/freefq - 印度  10, server: 202.78.162.5, port: 443, client-fingerprint: chrome, type: vmess, uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /, headers: {Host: pendar.onthewifi.com}}}
+  - {name: 🇨🇳 github.com/freefq - 广东省江门市移动 11, server: service.ouluyun9803.com, port: 26667, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2}
+  - {name: 🇨🇳 github.com/freefq - 广东省江门市移动 12, server: service.ouluyun9803.com, port: 20005, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2}
+  - {name: 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13, server: gov.uk, port: 443, client-fingerprint: chrome, type: vmess, uuid: 77848824-93b7-4b89-ffd0-e91afff406ce, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /77848824, headers: {Host: zheshiscp.com}}}
+  - {name: 🇺🇸 github.com/freefq - 美国CloudFlare节点 14, server: server32.beheshtbaneh.com, port: 8880, client-fingerprint: chrome, type: vmess, uuid: 044ba8ed-7285-472a-bc14-fb91dc6be4c9, alterId: 0, cipher: auto, tls: false, network: ws, ws-opts: {path: /, headers: {Host: server32.beheshtbaneh.com}}}
+  - {name: 请加入我们的聊天群组💬, server: www2.dtku48.xyz, port: 22334, client-fingerprint: chrome, type: hysteria, auth_str: dongtaiwang.com, auth-str: dongtaiwang.com, up: 50, down: 80, protocol: udp, skip-cert-verify: true, alpn: [h3]}
+  - {name: www.chrome-helper.cc:21830, server: www.chrome-helper.cc, port: 21830, client-fingerprint: chrome, type: http, tls: true}
 proxy-groups:
   - name: 全局设置
     type: select
     proxies:
       - 自动选择
-      - V001-US-付费推荐:dlj.tf/ssrsub
-      - V002-US-付费推荐:dlj.tf/ssrsub
-      - V003-US-付费推荐:dlj.tf/ssrsub
-      - V004-US-付费推荐:dlj.tf/ssrsub
-      - V01-付费推荐:dlj.tf/ssrsub
-      - V02-付费推荐:dlj.tf/ssrsub
-      - V03-付费推荐:dlj.tf/ssrsub
-      - V04-付费推荐:dlj.tf/ssrsub
-      - V05-付费推荐:dlj.tf/ssrsub
-      - V06-付费推荐:dlj.tf/ssrsub
-      - V07-付费推荐:dlj.tf/ssrsub
-      - V08-付费推荐:dlj.tf/ssrsub
-      - V09-付费推荐:dlj.tf/ssrsub
-      - V10-付费推荐:dlj.tf/ssrsub
-      - V11-付费推荐:dlj.tf/ssrsub
-      - V12-付费推荐:dlj.tf/ssrsub
-      - V13-付费推荐:dlj.tf/ssrsub
-      - V14-付费推荐:dlj.tf/ssrsub
-      - V15-付费推荐:dlj.tf/ssrsub
-      - V16-付费推荐:dlj.tf/ssrsub
-      - V17-付费推荐:dlj.tf/ssrsub
-      - V18-付费推荐:dlj.tf/ssrsub
-      - V19-付费推荐:dlj.tf/ssrsub
-      - V20-付费推荐:dlj.tf/ssrsub
-      - V21-付费推荐:dlj.tf/ssrsub
-      - V22-付费推荐:dlj.tf/ssrsub
-      - V23-付费推荐:dlj.tf/ssrsub
-      - V24-付费推荐:dlj.tf/ssrsub
-      - V25-付费推荐:dlj.tf/ssrsub
-      - V26-付费推荐:dlj.tf/ssrsub
-      - V27-付费推荐:dlj.tf/ssrsub
-      - V28-付费推荐:dlj.tf/ssrsub
-      - V29-付费推荐:dlj.tf/ssrsub
-      - V30-付费推荐:dlj.tf/ssrsub
-      - V31-付费推荐:dlj.tf/ssrsub
-      - V32-付费推荐:dlj.tf/ssrsub
-      - V33-付费推荐:dlj.tf/ssrsub
-      - V34-付费推荐:dlj.tf/ssrsub
-      - V35-付费推荐:dlj.tf/ssrsub
-      - V36-付费推荐:dlj.tf/ssrsub
-      - V37-付费推荐:dlj.tf/ssrsub
-      - V38-付费推荐:dlj.tf/ssrsub
-      - V39-付费推荐:dlj.tf/ssrsub
-      - V40-付费推荐:dlj.tf/ssrsub
-      - V41-付费推荐:dlj.tf/ssrsub
-      - V001-US-付费推荐:dlj.tf/ssrsub 2
-      - V002-US-付费推荐:dlj.tf/ssrsub 2
-      - V003-US-付费推荐:dlj.tf/ssrsub 2
-      - V004-US-付费推荐:dlj.tf/ssrsub 2
-      - V01-付费推荐:dlj.tf/ssrsub 2
-      - V02-付费推荐:dlj.tf/ssrsub 2
-      - V03-付费推荐:dlj.tf/ssrsub 2
-      - V04-付费推荐:dlj.tf/ssrsub 2
-      - V05-付费推荐:dlj.tf/ssrsub 2
-      - V06-付费推荐:dlj.tf/ssrsub 2
-      - V07-付费推荐:dlj.tf/ssrsub 2
-      - V08-付费推荐:dlj.tf/ssrsub 2
-      - V09-付费推荐:dlj.tf/ssrsub 2
-      - V10-付费推荐:dlj.tf/ssrsub 2
-      - V11-付费推荐:dlj.tf/ssrsub 2
-      - V12-付费推荐:dlj.tf/ssrsub 2
-      - V13-付费推荐:dlj.tf/ssrsub 2
-      - V14-付费推荐:dlj.tf/ssrsub 2
-      - V15-付费推荐:dlj.tf/ssrsub 2
-      - V16-付费推荐:dlj.tf/ssrsub 2
-      - V17-付费推荐:dlj.tf/ssrsub 2
-      - V18-付费推荐:dlj.tf/ssrsub 2
-      - V19-付费推荐:dlj.tf/ssrsub 2
-      - V20-付费推荐:dlj.tf/ssrsub 2
-      - V21-付费推荐:dlj.tf/ssrsub 2
-      - V22-付费推荐:dlj.tf/ssrsub 2
-      - V23-付费推荐:dlj.tf/ssrsub 2
-      - V24-付费推荐:dlj.tf/ssrsub 2
-      - V25-付费推荐:dlj.tf/ssrsub 2
-      - V26-付费推荐:dlj.tf/ssrsub 2
-      - V27-付费推荐:dlj.tf/ssrsub 2
-      - V28-付费推荐:dlj.tf/ssrsub 2
-      - V29-付费推荐:dlj.tf/ssrsub 2
-      - V30-付费推荐:dlj.tf/ssrsub 2
-      - V31-付费推荐:dlj.tf/ssrsub 2
-      - V32-付费推荐:dlj.tf/ssrsub 2
-      - V33-付费推荐:dlj.tf/ssrsub 2
-      - V34-付费推荐:dlj.tf/ssrsub 2
-      - V35-付费推荐:dlj.tf/ssrsub 2
-      - V36-付费推荐:dlj.tf/ssrsub 2
-      - V37-付费推荐:dlj.tf/ssrsub 2
-      - V38-付费推荐:dlj.tf/ssrsub 2
-      - V39-付费推荐:dlj.tf/ssrsub 2
-      - V40-付费推荐:dlj.tf/ssrsub 2
-      - V41-付费推荐:dlj.tf/ssrsub 2
-      - 美国+华盛顿Cogent通信公司
-      - 美国+华盛顿Cogent通信公司 2
-      - 美国+华盛顿Cogent通信公司 3
-      - 英国+伦敦Microsoft公司
-      - 美国+华盛顿Cogent通信公司 4
-      - 美国+华盛顿Cogent通信公司 5
-      - 美国+华盛顿Cogent通信公司 6
-      - 美国+华盛顿Cogent通信公司 7
-      - 美国+华盛顿Cogent通信公司 8
-      - 美国+华盛顿Cogent通信公司 9
-      - 美国+华盛顿Cogent通信公司 10
-      - 美国+华盛顿Cogent通信公司 11
-      - 美国+华盛顿Cogent通信公司 12
-      - 美国+华盛顿Cogent通信公司 13
-      - 美国+华盛顿Cogent通信公司 14
-      - 美国+华盛顿Cogent通信公司 15
-      - 美国+华盛顿Cogent通信公司 16
-      - 美国+华盛顿Cogent通信公司 17
-      - 广东省广州市+移动
-      - 美国+华盛顿Cogent通信公司 18
-      - 美国+华盛顿Cogent通信公司 19
-      - 美国+华盛顿Cogent通信公司 20
-      - 美国+华盛顿Cogent通信公司 21
-      - 美国+华盛顿Cogent通信公司 22
-      - 美国+华盛顿Cogent通信公司 23
-      - 美国+华盛顿Cogent通信公司 24
-      - 美国+华盛顿Cogent通信公司 25
-      - 美国+华盛顿Cogent通信公司 26
-      - 美国+华盛顿Cogent通信公司 27
-      - 美国+华盛顿Cogent通信公司 28
-      - 美国+华盛顿Cogent通信公司 29
-      - 美国+华盛顿Cogent通信公司 30
-      - 美国+华盛顿Cogent通信公司 31
-      - 美国+华盛顿Cogent通信公司 32
-      - 美国+华盛顿Cogent通信公司 33
-      - 美国+华盛顿Cogent通信公司 34
-      - 美国+华盛顿Cogent通信公司 35
-      - 美国+华盛顿Cogent通信公司 36
-      - 美国+华盛顿Cogent通信公司 37
-      - 美国+华盛顿Cogent通信公司 38
-      - 美国+华盛顿Cogent通信公司 39
-      - 美国+华盛顿Cogent通信公司 40
-      - 美国+华盛顿Cogent通信公司 41
-      - 美国+华盛顿Cogent通信公司 42
-      - 美国+德克萨斯州达拉斯Linode数据中心
-      - 美国+华盛顿Cogent通信公司 43
-      - 美国+华盛顿Cogent通信公司 44
-      - 美国+华盛顿Cogent通信公司 45
-      - 美国+华盛顿Cogent通信公司 46
-      - 美国+华盛顿Cogent通信公司 47
-      - 美国+华盛顿Cogent通信公司 48
-      - 美国+华盛顿Cogent通信公司 49
-      - 美国+华盛顿Cogent通信公司 50
-      - 广东省江门市+移动
-      - 美国+华盛顿Cogent通信公司 51
-      - 美国+华盛顿Cogent通信公司 52
-      - github.com/freefq - 俄罗斯  1
-      - github.com/freefq - 印度  2
-      - github.com/freefq - 印度  3
-      - github.com/freefq - 美国CloudFlare公司CDN节点 4
-      - github.com/freefq - 波兰  5
-      - github.com/freefq - 美国CloudFlare公司CDN节点 6
-      - github.com/freefq - 广东省移动 7
-      - github.com/freefq - 广东省江门市移动 8
-      - github.com/freefq - 美国CloudFlare公司CDN节点 9
-      - github.com/freefq - 印度  10
-      - github.com/freefq - 广东省江门市移动 11
-      - github.com/freefq - 广东省江门市移动 12
-      - github.com/freefq - 美国Fastly全球Anycast节点 13
-      - github.com/freefq - 美国CloudFlare节点 14
+      - 🇺🇸 V101-US-付费推荐:dlj.tf/ssrsub
+      - 🇺🇸 V102-US-付费推荐:dlj.tf/ssrsub
+      - 🇧🇷 巴西圣保罗 CloudFlare节点
+      - 🇨🇳 北京市 移动
+      - 🇷🇺 俄罗斯 鞑靼斯坦喀山justhost
+      - 🇨🇳 广东省 移动
+      - 🇨🇳 广东省 移动 2
+      - 🇨🇳 广东省广州市 移动
+      - 🇨🇳 湖南省 联通
+      - 🇺🇸 美国 Amazon EC2服务器
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇺🇸 美国 CloudFlare节点 6
+      - 🇺🇸 美国 CloudFlare节点 7
+      - 🇺🇸 美国 CloudFlare节点 8
+      - 🇺🇸 美国 CloudFlare节点 9
+      - 🇺🇸 美国 CloudFlare节点 10
+      - 🇺🇸 美国 CloudFlare节点 11
+      - 🇺🇸 美国 CloudFlare节点 12
+      - 🇺🇸 美国 CloudFlare节点 13
+      - 🇺🇸 美国 CloudFlare节点 14
+      - 🇺🇸 美国 CloudFlare节点 15
+      - 🇺🇸 美国 CloudFlare节点 16
+      - 🇺🇸 美国 CloudFlare节点 17
+      - 🇺🇸 美国 CloudFlare节点 18
+      - 🇺🇸 美国 CloudFlare节点 19
+      - 🇺🇸 美国 CloudFlare节点 20
+      - 🇺🇸 美国 CloudFlare节点 21
+      - 🇺🇸 美国 CloudFlare节点 22
+      - 🇺🇸 美国 CloudFlare节点 23
+      - 🇺🇸 美国 CloudFlare节点 24
+      - 🇺🇸 美国 CloudFlare节点 25
+      - 🇺🇸 美国 CloudFlare节点 26
+      - 🇺🇸 美国 CloudFlare节点 27
+      - 🇺🇸 美国 CloudFlare节点 28
+      - 🇺🇸 美国 CloudFlare节点 29
+      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇺🇸 美国 加利福尼亚
+      - 🇺🇸 美国加利福尼亚州洛杉矶 Coperation Coloction数据中心
+      - 🇯🇵 日本 东京PEG TECH
+      - 🇮🇷 伊朗 V2CROSS.COM
+      - 🇮🇷 伊朗 V2CROSS.COM 2
+      - 🇮🇪 爱尔兰+V2CROSS.COM
+      - 🇺🇸 北美地区+V2CROSS.COM
+      - 🇺🇸 北美地区+V2CROSS.COM 2
+      - 🇺🇸 北美地区+V2CROSS.COM 3
+      - 🇵🇱 波兰+V2CROSS.COM
+      - 🇷🇺 俄罗斯+V2CROSS.COM
+      - 🇫🇷 法国+OVH
+      - 🇫🇷 法国+OVH 2
+      - 🇫🇷 法国+OVH 3
+      - 🇫🇷 法国+OVH 4
+      - 🇫🇷 法国+OVH 5
+      - 🇫🇷 法国+OVH 6
+      - 🇫🇷 法国+OVH 7
+      - 🇫🇷 法国+OVH 8
+      - 🇫🇷 法国+OVH 9
+      - 🇫🇷 法国+OVH 10
+      - 🇫🇷 法国+OVH 11
+      - 🇫🇷 法国+OVH 12
+      - 🇫🇷 法国+OVH 13
+      - 🇫🇷 法国+OVH 14
+      - 🇫🇷 法国+OVH 15
+      - 🇫🇷 法国+OVH 16
+      - 🇫🇷 法国+OVH 17
+      - 🇫🇷 法国+OVH 18
+      - 🇫🇷 法国+OVH 19
+      - 🇫🇷 法国+OVH 20
+      - 🇫🇷 法国+OVH 21
+      - 🇫🇷 法国+OVH 22
+      - 🇫🇷 法国+OVH 23
+      - 🇫🇷 法国+OVH 24
+      - 🇫🇷 法国+OVH 25
+      - 🇫🇷 法国+OVH 26
+      - 🇫🇷 法国+OVH 27
+      - 🇫🇷 法国+OVH 28
+      - 🇫🇷 法国+OVH 29
+      - 🇫🇷 法国+OVH 30
+      - 🇫🇷 法国+OVH 31
+      - 🇫🇷 法国+OVH机房SAS硬盘BGP主机
+      - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 2
+      - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 3
+      - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 4
+      - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 5
+      - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 6
+      - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 7
+      - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 8
+      - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 9
+      - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 10
+      - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 11
+      - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 12
+      - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 13
+      - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 14
+      - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 15
+      - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 16
+      - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 17
+      - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 18
+      - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 19
+      - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 20
+      - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 21
+      - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 22
+      - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 23
+      - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 24
+      - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 25
+      - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 26
+      - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 27
+      - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 28
+      - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 29
+      - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 30
+      - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 31
+      - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 32
+      - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 33
+      - 🇨🇳 广东省广州市+移动
+      - 🇨🇳 广东省广州市+移动 2
+      - 🇨🇳 广东省深圳市+阿里云
+      - 🇷🇴 罗马尼亚+V2CROSS.COM
+      - 🇺🇸 美国+Akamai科技公司CDN网络节点
+      - 🇺🇸 美国+Alabanza
+      - 🇺🇸 美国+V2CROSS.COM
+      - 🇺🇸 美国+V2CROSS.COM 2
+      - 🇺🇸 美国+V2CROSS.COM 3
+      - 🇺🇸 美国+华盛顿Cogent通信公司
+      - 🇺🇸 美国+华盛顿Cogent通信公司 2
+      - 🇺🇸 美国+华盛顿Cogent通信公司 3
+      - 🇺🇸 美国+华盛顿Cogent通信公司 4
+      - 🇺🇸 美国+华盛顿州
+      - 🇸🇬 美国+新泽西州皮特卡维Choopa数据中心
+      - 🇸🇬 新加坡+Amazon数据中心
+      - 🇮🇹 意大利+V2CROSS.COM
+      - 🇮🇹 意大利+V2CROSS.COM 2
+      - 🇮🇹 意大利+V2CROSS.COM 3
+      - 🇮🇹 意大利+V2CROSS.COM 4
+      - 🇮🇹 意大利+V2CROSS.COM 5
+      - 🇺🇸 V101-US-付费推荐:dlj.tf/ssrsub 2
+      - 🇺🇸 V102-US-付费推荐:dlj.tf/ssrsub 2
+      - 🇧🇷 巴西圣保罗 CloudFlare节点 2
+      - 🇨🇳 北京市 移动 2
+      - 🇷🇺 俄罗斯 鞑靼斯坦喀山justhost 2
+      - 🇨🇳 广东省 移动 3
+      - 🇨🇳 广东省 移动 2 2
+      - 🇨🇳 广东省广州市 移动 2
+      - 🇨🇳 湖南省 联通 2
+      - 🇺🇸 美国 Amazon EC2服务器 2
+      - 🇺🇸 美国 CloudFlare节点 30
+      - 🇺🇸 美国 CloudFlare节点 2 2
+      - 🇺🇸 美国 CloudFlare节点 3 2
+      - 🇺🇸 美国 CloudFlare节点 4 2
+      - 🇺🇸 美国 CloudFlare节点 5 2
+      - 🇺🇸 美国 CloudFlare节点 6 2
+      - 🇺🇸 美国 CloudFlare节点 7 2
+      - 🇺🇸 美国 CloudFlare节点 8 2
+      - 🇺🇸 美国 CloudFlare节点 9 2
+      - 🇺🇸 美国 CloudFlare节点 10 2
+      - 🇺🇸 美国 CloudFlare节点 11 2
+      - 🇺🇸 美国 CloudFlare节点 12 2
+      - 🇺🇸 美国 CloudFlare节点 13 2
+      - 🇺🇸 美国 CloudFlare节点 14 2
+      - 🇺🇸 美国 CloudFlare节点 15 2
+      - 🇺🇸 美国 CloudFlare节点 16 2
+      - 🇺🇸 美国 CloudFlare节点 17 2
+      - 🇺🇸 美国 CloudFlare节点 18 2
+      - 🇺🇸 美国 CloudFlare节点 19 2
+      - 🇺🇸 美国 CloudFlare节点 20 2
+      - 🇺🇸 美国 CloudFlare节点 21 2
+      - 🇺🇸 美国 CloudFlare节点 22 2
+      - 🇺🇸 美国 CloudFlare节点 23 2
+      - 🇺🇸 美国 CloudFlare节点 24 2
+      - 🇺🇸 美国 CloudFlare节点 25 2
+      - 🇺🇸 美国 CloudFlare节点 26 2
+      - 🇺🇸 美国 CloudFlare节点 27 2
+      - 🇺🇸 美国 CloudFlare节点 28 2
+      - 🇺🇸 美国 CloudFlare节点 29 2
+      - 🇺🇸 美国 华盛顿Cogent通信公司 2
+      - 🇺🇸 美国 加利福尼亚 2
+      - 🇺🇸 美国加利福尼亚州洛杉矶 Coperation Coloction数据中心 2
+      - 🇯🇵 日本 东京PEG TECH 2
+      - 🇮🇷 伊朗 V2CROSS.COM 3
+      - 🇮🇷 伊朗 V2CROSS.COM 2 2
+      - 🇷🇺 github.com/freefq - 俄罗斯  1
+      - 🇮🇳 github.com/freefq - 印度  2
+      - 🇮🇳 github.com/freefq - 印度  3
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 4
+      - 🇵🇱 github.com/freefq - 波兰  5
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 6
+      - 🇨🇳 github.com/freefq - 广东省移动 7
+      - 🇨🇳 github.com/freefq - 广东省江门市移动 8
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 9
+      - 🇮🇳 github.com/freefq - 印度  10
+      - 🇨🇳 github.com/freefq - 广东省江门市移动 11
+      - 🇨🇳 github.com/freefq - 广东省江门市移动 12
+      - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
       - 请加入我们的聊天群组💬
       - www.chrome-helper.cc:21830
   - name: 自动选择
@@ -349,166 +419,201 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 150
     proxies:
-      - V001-US-付费推荐:dlj.tf/ssrsub
-      - V002-US-付费推荐:dlj.tf/ssrsub
-      - V003-US-付费推荐:dlj.tf/ssrsub
-      - V004-US-付费推荐:dlj.tf/ssrsub
-      - V01-付费推荐:dlj.tf/ssrsub
-      - V02-付费推荐:dlj.tf/ssrsub
-      - V03-付费推荐:dlj.tf/ssrsub
-      - V04-付费推荐:dlj.tf/ssrsub
-      - V05-付费推荐:dlj.tf/ssrsub
-      - V06-付费推荐:dlj.tf/ssrsub
-      - V07-付费推荐:dlj.tf/ssrsub
-      - V08-付费推荐:dlj.tf/ssrsub
-      - V09-付费推荐:dlj.tf/ssrsub
-      - V10-付费推荐:dlj.tf/ssrsub
-      - V11-付费推荐:dlj.tf/ssrsub
-      - V12-付费推荐:dlj.tf/ssrsub
-      - V13-付费推荐:dlj.tf/ssrsub
-      - V14-付费推荐:dlj.tf/ssrsub
-      - V15-付费推荐:dlj.tf/ssrsub
-      - V16-付费推荐:dlj.tf/ssrsub
-      - V17-付费推荐:dlj.tf/ssrsub
-      - V18-付费推荐:dlj.tf/ssrsub
-      - V19-付费推荐:dlj.tf/ssrsub
-      - V20-付费推荐:dlj.tf/ssrsub
-      - V21-付费推荐:dlj.tf/ssrsub
-      - V22-付费推荐:dlj.tf/ssrsub
-      - V23-付费推荐:dlj.tf/ssrsub
-      - V24-付费推荐:dlj.tf/ssrsub
-      - V25-付费推荐:dlj.tf/ssrsub
-      - V26-付费推荐:dlj.tf/ssrsub
-      - V27-付费推荐:dlj.tf/ssrsub
-      - V28-付费推荐:dlj.tf/ssrsub
-      - V29-付费推荐:dlj.tf/ssrsub
-      - V30-付费推荐:dlj.tf/ssrsub
-      - V31-付费推荐:dlj.tf/ssrsub
-      - V32-付费推荐:dlj.tf/ssrsub
-      - V33-付费推荐:dlj.tf/ssrsub
-      - V34-付费推荐:dlj.tf/ssrsub
-      - V35-付费推荐:dlj.tf/ssrsub
-      - V36-付费推荐:dlj.tf/ssrsub
-      - V37-付费推荐:dlj.tf/ssrsub
-      - V38-付费推荐:dlj.tf/ssrsub
-      - V39-付费推荐:dlj.tf/ssrsub
-      - V40-付费推荐:dlj.tf/ssrsub
-      - V41-付费推荐:dlj.tf/ssrsub
-      - V001-US-付费推荐:dlj.tf/ssrsub 2
-      - V002-US-付费推荐:dlj.tf/ssrsub 2
-      - V003-US-付费推荐:dlj.tf/ssrsub 2
-      - V004-US-付费推荐:dlj.tf/ssrsub 2
-      - V01-付费推荐:dlj.tf/ssrsub 2
-      - V02-付费推荐:dlj.tf/ssrsub 2
-      - V03-付费推荐:dlj.tf/ssrsub 2
-      - V04-付费推荐:dlj.tf/ssrsub 2
-      - V05-付费推荐:dlj.tf/ssrsub 2
-      - V06-付费推荐:dlj.tf/ssrsub 2
-      - V07-付费推荐:dlj.tf/ssrsub 2
-      - V08-付费推荐:dlj.tf/ssrsub 2
-      - V09-付费推荐:dlj.tf/ssrsub 2
-      - V10-付费推荐:dlj.tf/ssrsub 2
-      - V11-付费推荐:dlj.tf/ssrsub 2
-      - V12-付费推荐:dlj.tf/ssrsub 2
-      - V13-付费推荐:dlj.tf/ssrsub 2
-      - V14-付费推荐:dlj.tf/ssrsub 2
-      - V15-付费推荐:dlj.tf/ssrsub 2
-      - V16-付费推荐:dlj.tf/ssrsub 2
-      - V17-付费推荐:dlj.tf/ssrsub 2
-      - V18-付费推荐:dlj.tf/ssrsub 2
-      - V19-付费推荐:dlj.tf/ssrsub 2
-      - V20-付费推荐:dlj.tf/ssrsub 2
-      - V21-付费推荐:dlj.tf/ssrsub 2
-      - V22-付费推荐:dlj.tf/ssrsub 2
-      - V23-付费推荐:dlj.tf/ssrsub 2
-      - V24-付费推荐:dlj.tf/ssrsub 2
-      - V25-付费推荐:dlj.tf/ssrsub 2
-      - V26-付费推荐:dlj.tf/ssrsub 2
-      - V27-付费推荐:dlj.tf/ssrsub 2
-      - V28-付费推荐:dlj.tf/ssrsub 2
-      - V29-付费推荐:dlj.tf/ssrsub 2
-      - V30-付费推荐:dlj.tf/ssrsub 2
-      - V31-付费推荐:dlj.tf/ssrsub 2
-      - V32-付费推荐:dlj.tf/ssrsub 2
-      - V33-付费推荐:dlj.tf/ssrsub 2
-      - V34-付费推荐:dlj.tf/ssrsub 2
-      - V35-付费推荐:dlj.tf/ssrsub 2
-      - V36-付费推荐:dlj.tf/ssrsub 2
-      - V37-付费推荐:dlj.tf/ssrsub 2
-      - V38-付费推荐:dlj.tf/ssrsub 2
-      - V39-付费推荐:dlj.tf/ssrsub 2
-      - V40-付费推荐:dlj.tf/ssrsub 2
-      - V41-付费推荐:dlj.tf/ssrsub 2
-      - 美国+华盛顿Cogent通信公司
-      - 美国+华盛顿Cogent通信公司 2
-      - 美国+华盛顿Cogent通信公司 3
-      - 英国+伦敦Microsoft公司
-      - 美国+华盛顿Cogent通信公司 4
-      - 美国+华盛顿Cogent通信公司 5
-      - 美国+华盛顿Cogent通信公司 6
-      - 美国+华盛顿Cogent通信公司 7
-      - 美国+华盛顿Cogent通信公司 8
-      - 美国+华盛顿Cogent通信公司 9
-      - 美国+华盛顿Cogent通信公司 10
-      - 美国+华盛顿Cogent通信公司 11
-      - 美国+华盛顿Cogent通信公司 12
-      - 美国+华盛顿Cogent通信公司 13
-      - 美国+华盛顿Cogent通信公司 14
-      - 美国+华盛顿Cogent通信公司 15
-      - 美国+华盛顿Cogent通信公司 16
-      - 美国+华盛顿Cogent通信公司 17
-      - 广东省广州市+移动
-      - 美国+华盛顿Cogent通信公司 18
-      - 美国+华盛顿Cogent通信公司 19
-      - 美国+华盛顿Cogent通信公司 20
-      - 美国+华盛顿Cogent通信公司 21
-      - 美国+华盛顿Cogent通信公司 22
-      - 美国+华盛顿Cogent通信公司 23
-      - 美国+华盛顿Cogent通信公司 24
-      - 美国+华盛顿Cogent通信公司 25
-      - 美国+华盛顿Cogent通信公司 26
-      - 美国+华盛顿Cogent通信公司 27
-      - 美国+华盛顿Cogent通信公司 28
-      - 美国+华盛顿Cogent通信公司 29
-      - 美国+华盛顿Cogent通信公司 30
-      - 美国+华盛顿Cogent通信公司 31
-      - 美国+华盛顿Cogent通信公司 32
-      - 美国+华盛顿Cogent通信公司 33
-      - 美国+华盛顿Cogent通信公司 34
-      - 美国+华盛顿Cogent通信公司 35
-      - 美国+华盛顿Cogent通信公司 36
-      - 美国+华盛顿Cogent通信公司 37
-      - 美国+华盛顿Cogent通信公司 38
-      - 美国+华盛顿Cogent通信公司 39
-      - 美国+华盛顿Cogent通信公司 40
-      - 美国+华盛顿Cogent通信公司 41
-      - 美国+华盛顿Cogent通信公司 42
-      - 美国+德克萨斯州达拉斯Linode数据中心
-      - 美国+华盛顿Cogent通信公司 43
-      - 美国+华盛顿Cogent通信公司 44
-      - 美国+华盛顿Cogent通信公司 45
-      - 美国+华盛顿Cogent通信公司 46
-      - 美国+华盛顿Cogent通信公司 47
-      - 美国+华盛顿Cogent通信公司 48
-      - 美国+华盛顿Cogent通信公司 49
-      - 美国+华盛顿Cogent通信公司 50
-      - 广东省江门市+移动
-      - 美国+华盛顿Cogent通信公司 51
-      - 美国+华盛顿Cogent通信公司 52
-      - github.com/freefq - 俄罗斯  1
-      - github.com/freefq - 印度  2
-      - github.com/freefq - 印度  3
-      - github.com/freefq - 美国CloudFlare公司CDN节点 4
-      - github.com/freefq - 波兰  5
-      - github.com/freefq - 美国CloudFlare公司CDN节点 6
-      - github.com/freefq - 广东省移动 7
-      - github.com/freefq - 广东省江门市移动 8
-      - github.com/freefq - 美国CloudFlare公司CDN节点 9
-      - github.com/freefq - 印度  10
-      - github.com/freefq - 广东省江门市移动 11
-      - github.com/freefq - 广东省江门市移动 12
-      - github.com/freefq - 美国Fastly全球Anycast节点 13
-      - github.com/freefq - 美国CloudFlare节点 14
+      - 🇺🇸 V101-US-付费推荐:dlj.tf/ssrsub
+      - 🇺🇸 V102-US-付费推荐:dlj.tf/ssrsub
+      - 🇧🇷 巴西圣保罗 CloudFlare节点
+      - 🇨🇳 北京市 移动
+      - 🇷🇺 俄罗斯 鞑靼斯坦喀山justhost
+      - 🇨🇳 广东省 移动
+      - 🇨🇳 广东省 移动 2
+      - 🇨🇳 广东省广州市 移动
+      - 🇨🇳 湖南省 联通
+      - 🇺🇸 美国 Amazon EC2服务器
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇺🇸 美国 CloudFlare节点 6
+      - 🇺🇸 美国 CloudFlare节点 7
+      - 🇺🇸 美国 CloudFlare节点 8
+      - 🇺🇸 美国 CloudFlare节点 9
+      - 🇺🇸 美国 CloudFlare节点 10
+      - 🇺🇸 美国 CloudFlare节点 11
+      - 🇺🇸 美国 CloudFlare节点 12
+      - 🇺🇸 美国 CloudFlare节点 13
+      - 🇺🇸 美国 CloudFlare节点 14
+      - 🇺🇸 美国 CloudFlare节点 15
+      - 🇺🇸 美国 CloudFlare节点 16
+      - 🇺🇸 美国 CloudFlare节点 17
+      - 🇺🇸 美国 CloudFlare节点 18
+      - 🇺🇸 美国 CloudFlare节点 19
+      - 🇺🇸 美国 CloudFlare节点 20
+      - 🇺🇸 美国 CloudFlare节点 21
+      - 🇺🇸 美国 CloudFlare节点 22
+      - 🇺🇸 美国 CloudFlare节点 23
+      - 🇺🇸 美国 CloudFlare节点 24
+      - 🇺🇸 美国 CloudFlare节点 25
+      - 🇺🇸 美国 CloudFlare节点 26
+      - 🇺🇸 美国 CloudFlare节点 27
+      - 🇺🇸 美国 CloudFlare节点 28
+      - 🇺🇸 美国 CloudFlare节点 29
+      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇺🇸 美国 加利福尼亚
+      - 🇺🇸 美国加利福尼亚州洛杉矶 Coperation Coloction数据中心
+      - 🇯🇵 日本 东京PEG TECH
+      - 🇮🇷 伊朗 V2CROSS.COM
+      - 🇮🇷 伊朗 V2CROSS.COM 2
+      - 🇮🇪 爱尔兰+V2CROSS.COM
+      - 🇺🇸 北美地区+V2CROSS.COM
+      - 🇺🇸 北美地区+V2CROSS.COM 2
+      - 🇺🇸 北美地区+V2CROSS.COM 3
+      - 🇵🇱 波兰+V2CROSS.COM
+      - 🇷🇺 俄罗斯+V2CROSS.COM
+      - 🇫🇷 法国+OVH
+      - 🇫🇷 法国+OVH 2
+      - 🇫🇷 法国+OVH 3
+      - 🇫🇷 法国+OVH 4
+      - 🇫🇷 法国+OVH 5
+      - 🇫🇷 法国+OVH 6
+      - 🇫🇷 法国+OVH 7
+      - 🇫🇷 法国+OVH 8
+      - 🇫🇷 法国+OVH 9
+      - 🇫🇷 法国+OVH 10
+      - 🇫🇷 法国+OVH 11
+      - 🇫🇷 法国+OVH 12
+      - 🇫🇷 法国+OVH 13
+      - 🇫🇷 法国+OVH 14
+      - 🇫🇷 法国+OVH 15
+      - 🇫🇷 法国+OVH 16
+      - 🇫🇷 法国+OVH 17
+      - 🇫🇷 法国+OVH 18
+      - 🇫🇷 法国+OVH 19
+      - 🇫🇷 法国+OVH 20
+      - 🇫🇷 法国+OVH 21
+      - 🇫🇷 法国+OVH 22
+      - 🇫🇷 法国+OVH 23
+      - 🇫🇷 法国+OVH 24
+      - 🇫🇷 法国+OVH 25
+      - 🇫🇷 法国+OVH 26
+      - 🇫🇷 法国+OVH 27
+      - 🇫🇷 法国+OVH 28
+      - 🇫🇷 法国+OVH 29
+      - 🇫🇷 法国+OVH 30
+      - 🇫🇷 法国+OVH 31
+      - 🇫🇷 法国+OVH机房SAS硬盘BGP主机
+      - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 2
+      - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 3
+      - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 4
+      - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 5
+      - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 6
+      - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 7
+      - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 8
+      - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 9
+      - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 10
+      - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 11
+      - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 12
+      - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 13
+      - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 14
+      - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 15
+      - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 16
+      - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 17
+      - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 18
+      - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 19
+      - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 20
+      - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 21
+      - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 22
+      - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 23
+      - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 24
+      - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 25
+      - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 26
+      - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 27
+      - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 28
+      - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 29
+      - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 30
+      - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 31
+      - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 32
+      - 🇫🇷 法国+OVH机房SAS硬盘BGP主机 33
+      - 🇨🇳 广东省广州市+移动
+      - 🇨🇳 广东省广州市+移动 2
+      - 🇨🇳 广东省深圳市+阿里云
+      - 🇷🇴 罗马尼亚+V2CROSS.COM
+      - 🇺🇸 美国+Akamai科技公司CDN网络节点
+      - 🇺🇸 美国+Alabanza
+      - 🇺🇸 美国+V2CROSS.COM
+      - 🇺🇸 美国+V2CROSS.COM 2
+      - 🇺🇸 美国+V2CROSS.COM 3
+      - 🇺🇸 美国+华盛顿Cogent通信公司
+      - 🇺🇸 美国+华盛顿Cogent通信公司 2
+      - 🇺🇸 美国+华盛顿Cogent通信公司 3
+      - 🇺🇸 美国+华盛顿Cogent通信公司 4
+      - 🇺🇸 美国+华盛顿州
+      - 🇸🇬 美国+新泽西州皮特卡维Choopa数据中心
+      - 🇸🇬 新加坡+Amazon数据中心
+      - 🇮🇹 意大利+V2CROSS.COM
+      - 🇮🇹 意大利+V2CROSS.COM 2
+      - 🇮🇹 意大利+V2CROSS.COM 3
+      - 🇮🇹 意大利+V2CROSS.COM 4
+      - 🇮🇹 意大利+V2CROSS.COM 5
+      - 🇺🇸 V101-US-付费推荐:dlj.tf/ssrsub 2
+      - 🇺🇸 V102-US-付费推荐:dlj.tf/ssrsub 2
+      - 🇧🇷 巴西圣保罗 CloudFlare节点 2
+      - 🇨🇳 北京市 移动 2
+      - 🇷🇺 俄罗斯 鞑靼斯坦喀山justhost 2
+      - 🇨🇳 广东省 移动 3
+      - 🇨🇳 广东省 移动 2 2
+      - 🇨🇳 广东省广州市 移动 2
+      - 🇨🇳 湖南省 联通 2
+      - 🇺🇸 美国 Amazon EC2服务器 2
+      - 🇺🇸 美国 CloudFlare节点 30
+      - 🇺🇸 美国 CloudFlare节点 2 2
+      - 🇺🇸 美国 CloudFlare节点 3 2
+      - 🇺🇸 美国 CloudFlare节点 4 2
+      - 🇺🇸 美国 CloudFlare节点 5 2
+      - 🇺🇸 美国 CloudFlare节点 6 2
+      - 🇺🇸 美国 CloudFlare节点 7 2
+      - 🇺🇸 美国 CloudFlare节点 8 2
+      - 🇺🇸 美国 CloudFlare节点 9 2
+      - 🇺🇸 美国 CloudFlare节点 10 2
+      - 🇺🇸 美国 CloudFlare节点 11 2
+      - 🇺🇸 美国 CloudFlare节点 12 2
+      - 🇺🇸 美国 CloudFlare节点 13 2
+      - 🇺🇸 美国 CloudFlare节点 14 2
+      - 🇺🇸 美国 CloudFlare节点 15 2
+      - 🇺🇸 美国 CloudFlare节点 16 2
+      - 🇺🇸 美国 CloudFlare节点 17 2
+      - 🇺🇸 美国 CloudFlare节点 18 2
+      - 🇺🇸 美国 CloudFlare节点 19 2
+      - 🇺🇸 美国 CloudFlare节点 20 2
+      - 🇺🇸 美国 CloudFlare节点 21 2
+      - 🇺🇸 美国 CloudFlare节点 22 2
+      - 🇺🇸 美国 CloudFlare节点 23 2
+      - 🇺🇸 美国 CloudFlare节点 24 2
+      - 🇺🇸 美国 CloudFlare节点 25 2
+      - 🇺🇸 美国 CloudFlare节点 26 2
+      - 🇺🇸 美国 CloudFlare节点 27 2
+      - 🇺🇸 美国 CloudFlare节点 28 2
+      - 🇺🇸 美国 CloudFlare节点 29 2
+      - 🇺🇸 美国 华盛顿Cogent通信公司 2
+      - 🇺🇸 美国 加利福尼亚 2
+      - 🇺🇸 美国加利福尼亚州洛杉矶 Coperation Coloction数据中心 2
+      - 🇯🇵 日本 东京PEG TECH 2
+      - 🇮🇷 伊朗 V2CROSS.COM 3
+      - 🇮🇷 伊朗 V2CROSS.COM 2 2
+      - 🇷🇺 github.com/freefq - 俄罗斯  1
+      - 🇮🇳 github.com/freefq - 印度  2
+      - 🇮🇳 github.com/freefq - 印度  3
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 4
+      - 🇵🇱 github.com/freefq - 波兰  5
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 6
+      - 🇨🇳 github.com/freefq - 广东省移动 7
+      - 🇨🇳 github.com/freefq - 广东省江门市移动 8
+      - 🇺🇸 github.com/freefq - 美国CloudFlare公司CDN节点 9
+      - 🇮🇳 github.com/freefq - 印度  10
+      - 🇨🇳 github.com/freefq - 广东省江门市移动 11
+      - 🇨🇳 github.com/freefq - 广东省江门市移动 12
+      - 🇺🇸 github.com/freefq - 美国Fastly全球Anycast节点 13
+      - 🇺🇸 github.com/freefq - 美国CloudFlare节点 14
       - 请加入我们的聊天群组💬
       - www.chrome-helper.cc:21830
   - name: 其他设置
